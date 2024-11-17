@@ -11,10 +11,10 @@
   },
   "author": "Pratik",
   "license": "ISC",
-  "lint-staged":{
-     "*.ts":[
+  "lint-staged": {
+    "*.ts": [
       "npm run lint:fix"
-     ]
+    ]
   },
   "devDependencies": {
     "@commitlint/cli": "^19.5.0",
