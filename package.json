@@ -1,0 +1,16 @@
+{
+  "name": "bnetwork-backend",
+  "version": "1.0.0",
+  "description": "Believe Network backend which listen on opBNB blockchain. to get events data from bnetwork smart-contracts.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js",
+    "prepare": "husky"
+  },
+  "author": "Pratik",
+  "license": "ISC",
+  "devDependencies": {
+    "husky": "^9.1.6",
+    "lint-staged": "^15.2.10"
+  }
+}
