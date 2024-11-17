@@ -4,13 +4,23 @@
   "description": "Believe Network backend which listen on opBNB blockchain. to get events data from bnetwork smart-contracts.",
   "main": "index.js",
   "scripts": {
-    "test": "node test.js",
+    "dist": "npx tsc",
+    "dev": "nodemon src/index.ts",
+    "start": "node dist/index.js",
     "prepare": "husky"
   },
   "author": "Pratik",
   "license": "ISC",
   "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.9.0",
     "husky": "^9.1.6",
-    "lint-staged": "^15.2.10"
+    "lint-staged": "^15.2.10",
+    "nodemon": "^3.1.7",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5"
   }
 }
