@@ -43,3 +43,1780 @@
         "SERVER_URL": "http://localhost:4000"
     }
 }
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-18T20:50:09.820Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-18T20:53:06.557Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-18T20:53:33.249Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-18T20:53:43.892Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-18T20:53:47.800Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-18T20:53:54.500Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-18T20:54:28.394Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-18T20:54:51.808Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "CONTROLLER_RESPONSE",
+    "timestamp": "2024-11-18T20:55:08.199Z",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/api/v1/self"
+        },
+        "message": "The operation has been successful",
+        "data": {
+            "id": "11"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-18T20:57:18.668Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-18T20:58:36.339Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-18T21:06:52.872Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-18T21:06:54.942Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-18T21:06:58.561Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-18T21:07:00.454Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-18T21:07:02.928Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-18T21:07:05.123Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-18T21:07:06.495Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-18T21:07:09.645Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-18T21:07:11.365Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-18T21:07:13.712Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-18T21:07:15.266Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-18T21:07:19.805Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-18T21:07:21.764Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-18T21:07:23.237Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-18T21:07:26.870Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-18T21:07:28.454Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-18T21:07:30.443Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-18T21:07:32.410Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-18T21:07:34.793Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-18T21:07:36.139Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-18T21:07:37.821Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-18T21:07:40.133Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-18T21:07:41.707Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-18T21:07:43.021Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-18T21:07:44.144Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-18T21:07:46.177Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-18T21:07:47.852Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-18T21:07:51.351Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-18T21:07:52.805Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-18T21:07:55.495Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-18T21:07:57.301Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-18T21:07:58.961Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-18T21:08:00.999Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-18T21:08:02.992Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-18T21:08:04.480Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-18T21:08:08.890Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-18T21:08:11.997Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-18T21:08:12.784Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-18T21:08:14.281Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-18T21:08:15.379Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-18T21:08:16.940Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-18T21:08:18.910Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-18T21:08:19.553Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-18T21:08:24.384Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-18T21:08:25.996Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-18T21:08:29.172Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-18T21:08:32.253Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-18T21:08:38.025Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-18T21:08:43.328Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-18T21:08:44.942Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-18T21:08:45.857Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-18T21:08:46.967Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-18T21:08:51.563Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-18T21:08:54.294Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-18T21:08:55.654Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-18T21:08:58.730Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-18T21:09:01.020Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-18T21:09:03.433Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-18T21:09:04.450Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-18T21:09:05.341Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-18T21:09:09.282Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-18T21:09:11.891Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-18T21:09:14.012Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-18T21:09:16.583Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-18T21:09:17.962Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-18T21:09:20.312Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-18T21:09:23.043Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-18T21:09:24.821Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-18T21:09:29.238Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-18T21:09:30.630Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-18T21:09:31.673Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-18T21:09:32.407Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-18T21:09:34.843Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-18T21:09:37.117Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-18T21:09:37.985Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-18T21:09:40.491Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-18T21:09:41.255Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-18T21:09:43.933Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-18T21:09:44.864Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-18T21:09:51.807Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-18T21:10:00.936Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-18T21:10:18.430Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-18T21:10:19.644Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-18T21:10:22.032Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-18T21:10:25.942Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-18T21:10:28.555Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-18T21:10:30.389Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-18T21:10:31.871Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-18T21:10:33.900Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-18T21:10:35.558Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-18T21:10:56.089Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-18T21:10:57.392Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-18T21:10:59.108Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-18T21:11:01.601Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-18T21:11:09.314Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-18T21:11:10.058Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-18T21:11:11.870Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-18T21:11:12.582Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-18T21:11:13.465Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-18T21:11:14.814Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-18T21:11:16.403Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-18T21:11:18.622Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-18T21:11:21.065Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-18T21:11:23.534Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-18T21:11:24.521Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-18T21:11:26.515Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-18T21:11:28.007Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-18T21:11:30.873Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-18T21:11:34.859Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-18T21:11:35.759Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-18T21:11:42.272Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-18T21:11:43.055Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-18T21:11:45.739Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-18T21:11:47.825Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-18T21:11:51.928Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-18T21:11:52.702Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-18T21:11:54.426Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-18T21:11:56.473Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-18T21:11:57.684Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-18T21:12:00.577Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-18T21:12:02.696Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-18T21:12:04.603Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-18T21:12:07.327Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-18T21:12:08.736Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-18T21:12:13.827Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-18T21:12:17.190Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-18T21:12:18.608Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-18T21:12:22.197Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-18T21:12:26.843Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-18T21:12:30.633Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-18T21:13:08.011Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-18T21:13:12.180Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-18T21:13:13.474Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-18T21:13:25.769Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-18T21:13:28.673Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-18T21:13:29.867Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-18T21:14:40.508Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-18T21:16:04.966Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "CONTROLLER_RESPONSE",
+    "timestamp": "2024-11-18T21:16:34.574Z",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/api/v1/backendhealth"
+        },
+        "message": "The operation has been successful",
+        "data": {
+            "application": {
+                "environment": "development",
+                "uptime": "30.21 Second",
+                "memoryUsage": {
+                    "heapTotal": "128.75 MB",
+                    "heapUsed": "124.56 MB"
+                }
+            },
+            "system": {
+                "cpuUsage": [
+                    3.20703125,
+                    3.1796875,
+                    3.25048828125
+                ],
+                "totalMemory": "16384.00 MB",
+                "freeMemory": "175.11 MB"
+            },
+            "timestamp": 1731964594574
+        }
+    }
+}
+{
+    "level": "INFO",
+    "message": "CONTROLLER_RESPONSE",
+    "timestamp": "2024-11-18T21:16:54.657Z",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/api/v1/backendhealth"
+        },
+        "message": "The operation has been successful",
+        "data": {
+            "application": {
+                "environment": "development",
+                "uptime": "50.29 Second",
+                "memoryUsage": {
+                    "heapTotal": "129.75 MB",
+                    "heapUsed": "124.21 MB"
+                }
+            },
+            "system": {
+                "cpuUsage": [
+                    3.05078125,
+                    3.1494140625,
+                    3.2373046875
+                ],
+                "totalMemory": "16384.00 MB",
+                "freeMemory": "200.89 MB"
+            },
+            "timestamp": 1731964614656
+        }
+    }
+}
+{
+    "level": "INFO",
+    "message": "CONTROLLER_RESPONSE",
+    "timestamp": "2024-11-18T21:18:00.349Z",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/api/v1/backendhealth"
+        },
+        "message": "The operation has been successful",
+        "data": {
+            "application": {
+                "environment": "development",
+                "uptime": "115.98 Second",
+                "memoryUsage": {
+                    "heapTotal": "130.25 MB",
+                    "heapUsed": "125.04 MB"
+                }
+            },
+            "system": {
+                "cpuUsage": [
+                    2.73876953125,
+                    2.9931640625,
+                    3.16748046875
+                ],
+                "totalMemory": "16384.00 MB",
+                "freeMemory": "570.88 MB"
+            },
+            "timestamp": 1731964680348
+        }
+    }
+}
+{
+    "level": "INFO",
+    "message": "CONTROLLER_RESPONSE",
+    "timestamp": "2024-11-18T21:18:38.518Z",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/api/v1/backendhealth"
+        },
+        "message": "The operation has been successful",
+        "data": {
+            "application": {
+                "environment": "development",
+                "uptime": "154.15 Second",
+                "memoryUsage": {
+                    "heapTotal": "130.50 MB",
+                    "heapUsed": "125.15 MB"
+                }
+            },
+            "system": {
+                "cpuUsage": [
+                    2.47216796875,
+                    2.89697265625,
+                    3.1240234375
+                ],
+                "totalMemory": "16384.00 MB",
+                "freeMemory": "652.63 MB"
+            },
+            "timestamp": 1731964718518
+        }
+    }
+}
+{
+    "level": "INFO",
+    "message": "CONTROLLER_RESPONSE",
+    "timestamp": "2024-11-18T21:18:41.911Z",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/api/v1/backendhealth"
+        },
+        "message": "The operation has been successful",
+        "data": {
+            "application": {
+                "environment": "development",
+                "uptime": "157.55 Second",
+                "memoryUsage": {
+                    "heapTotal": "130.50 MB",
+                    "heapUsed": "125.23 MB"
+                }
+            },
+            "system": {
+                "cpuUsage": [
+                    2.47216796875,
+                    2.89697265625,
+                    3.1240234375
+                ],
+                "totalMemory": "16384.00 MB",
+                "freeMemory": "325.98 MB"
+            },
+            "timestamp": 1731964721911
+        }
+    }
+}
+{
+    "level": "INFO",
+    "message": "CONTROLLER_RESPONSE",
+    "timestamp": "2024-11-18T21:20:55.067Z",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/api/v1/backendhealth"
+        },
+        "message": "The operation has been successful",
+        "data": {
+            "application": {
+                "environment": "development",
+                "uptime": "290.70 Second",
+                "memoryUsage": {
+                    "heapTotal": "129.75 MB",
+                    "heapUsed": "124.85 MB"
+                }
+            },
+            "system": {
+                "cpuUsage": [
+                    2.17578125,
+                    2.64599609375,
+                    2.9892578125
+                ],
+                "totalMemory": "16384.00 MB",
+                "freeMemory": "285.73 MB"
+            },
+            "timestamp": 1731964855067
+        }
+    }
+}
+{
+    "level": "INFO",
+    "message": "CONTROLLER_RESPONSE",
+    "timestamp": "2024-11-18T21:20:56.642Z",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/api/v1/backendhealth"
+        },
+        "message": "The operation has been successful",
+        "data": {
+            "application": {
+                "environment": "development",
+                "uptime": "292.28 Second",
+                "memoryUsage": {
+                    "heapTotal": "129.75 MB",
+                    "heapUsed": "124.93 MB"
+                }
+            },
+            "system": {
+                "cpuUsage": [
+                    2.17578125,
+                    2.64599609375,
+                    2.9892578125
+                ],
+                "totalMemory": "16384.00 MB",
+                "freeMemory": "164.73 MB"
+            },
+            "timestamp": 1731964856641
+        }
+    }
+}
+{
+    "level": "INFO",
+    "message": "CONTROLLER_RESPONSE",
+    "timestamp": "2024-11-18T21:21:27.372Z",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/api/v1/backendhealth"
+        },
+        "message": "The operation has been successful",
+        "data": {
+            "application": {
+                "environment": "development",
+                "uptime": "323.01 Second",
+                "memoryUsage": {
+                    "heapTotal": "129.75 MB",
+                    "heapUsed": "125.01 MB"
+                }
+            },
+            "system": {
+                "cpuUsage": [
+                    1.94970703125,
+                    2.55029296875,
+                    2.9423828125
+                ],
+                "totalMemory": "16384.00 MB",
+                "freeMemory": "367.33 MB"
+            },
+            "timestamp": 1731964887372
+        }
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-18T21:23:00.163Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-18T21:23:58.487Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-18T21:23:59.181Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "CONTROLLER_RESPONSE",
+    "timestamp": "2024-11-18T21:24:10.441Z",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/api/v1/backendhealth"
+        },
+        "message": "The operation has been successful",
+        "data": {
+            "application": {
+                "environment": "development",
+                "uptime": "11.92 Second",
+                "memoryUsage": {
+                    "heapTotal": "128.75 MB",
+                    "heapUsed": "124.14 MB"
+                }
+            },
+            "system": {
+                "cpuUsage": [
+                    3.0341796875,
+                    2.66064453125,
+                    2.89990234375
+                ],
+                "totalMemory": "16384.00 MB",
+                "freeMemory": "241.89 MB",
+                "usedMemory": "16142.11 MB",
+                "memoryUsagePercentage": "98.52 %"
+            },
+            "timestamp": 1731965050441
+        }
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-18T21:29:13.121Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "CONTROLLER_RESPONSE",
+    "timestamp": "2024-11-18T21:29:23.932Z",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/api/v1/backendhealth"
+        },
+        "message": "The operation has been successful",
+        "data": {
+            "application": {
+                "environment": "development",
+                "uptime": "11.48 Second",
+                "memoryUsage": {
+                    "heapTotal": "129.75 MB",
+                    "heapUsed": "124.36 MB"
+                }
+            },
+            "system": {
+                "cpuUsage": [
+                    5.11328125,
+                    3.12646484375,
+                    2.96875
+                ],
+                "totalMemory": "16384.00 MB",
+                "freeMemory": "149.56 MB",
+                "usedMemory": "16234.44 MB",
+                "memoryUsagePercentage": "99.09 %"
+            },
+            "timestamp": 1731965363932
+        }
+    }
+}
+{
+    "level": "INFO",
+    "message": "CONTROLLER_RESPONSE",
+    "timestamp": "2024-11-18T21:29:37.909Z",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/api/v1/backendhealth"
+        },
+        "message": "The operation has been successful",
+        "data": {
+            "application": {
+                "environment": "development",
+                "uptime": "25.46 Second",
+                "memoryUsage": {
+                    "heapTotal": "129.75 MB",
+                    "heapUsed": "124.73 MB"
+                }
+            },
+            "system": {
+                "cpuUsage": [
+                    4.98974609375,
+                    3.19970703125,
+                    2.998046875
+                ],
+                "totalMemory": "16384.00 MB",
+                "freeMemory": "149.25 MB",
+                "usedMemory": "16234.75 MB",
+                "memoryUsagePercentage": "99.09 %"
+            },
+            "timestamp": 1731965377909
+        }
+    }
+}

@@ -3,10 +3,13 @@ import router from './routes/api-routes';
 import globalError from './middleware/global-error';
 import responseMessage from './constant/response-message';
 import httpError from './util/http-error';
+import helmet from 'helmet';
 
 const app:Application = express()
 
+
 //Middleware
+app.use(helmet())
 app.use(express.json())
 
 //Base route
