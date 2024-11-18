@@ -1,0 +1,45 @@
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-18T20:39:42.523Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-18T20:39:46.567Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-18T20:45:55.975Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-18T20:46:30.482Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-18T20:46:31.633Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}

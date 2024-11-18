@@ -2,6 +2,7 @@ import express from 'express';
 import { HttpResponse } from '../types/type';
 import config from '../config/config';
 import { ApplicationEnvironment } from '../constant/application';
+import logger from './logger';
 
 
 export default (req:express.Request,res:express.Response,responseStatusCode:number,responseMsg:string,data:unknown ):void =>{
@@ -17,6 +18,10 @@ export default (req:express.Request,res:express.Response,responseStatusCode:numb
         message:responseMsg,
         data:data
     }
+
+    logger.info(`CONTROLLER_RESPONSE`,{ 
+        meta:response
+    })
 
 
     if(config.ENV === ApplicationEnvironment.PRODUCTION){
