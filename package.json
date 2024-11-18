@@ -1,54 +1,66 @@
 {
-  "name": "bnetwork-backend",
-  "version": "1.0.0",
-  "description": "Believe Network backend which listen on opBNB blockchain. to get events data from bnetwork smart-contracts.",
-  "main": "server.js",
-  "scripts": {
-    "dist": "npx tsc",
-    "dev": "cross-env NODE_ENV=development nodemon src/server.ts",
-    "start": "cross-env NODE_ENV=production node dist/server.js",
-    "lint": "eslint",
-    "lint:fix": "eslint --fix",
-    "format:check": "prettier --check",
-    "format:fix": "prettier . --fix",
-    "prepare": "husky"
-  },
-  "author": "Pratik",
-  "license": "ISC",
-  "lint-staged": {
-    "*.ts": [
-      "npm run lint:fix",
-      "npm run format:fix"
-    ]
-  },
-  "devDependencies": {
-    "@commitlint/cli": "^19.5.0",
-    "@commitlint/config-conventional": "^19.5.0",
-    "@eslint/js": "^9.15.0",
-    "@types/eslint__js": "^8.42.3",
-    "@types/express": "^5.0.0",
-    "@types/node": "^22.9.0",
-    "@types/source-map-support": "^0.5.10",
-    "@typescript-eslint/eslint-plugin": "^8.14.0",
-    "@typescript-eslint/parser": "^8.14.0",
-    "eslint": "^9.15.0",
-    "husky": "^9.1.6",
-    "lint-staged": "^15.2.10",
-    "nodemon": "^3.1.7",
-    "prettier": "3.3.3",
-    "ts-node": "^10.9.2",
-    "typescript": "^5.6.3",
-    "typescript-eslint": "^8.14.0"
-  },
-  "dependencies": {
-    "colorette": "^2.0.20",
-    "cross-env": "^7.0.3",
-    "dotenv": "^16.4.5",
-    "dotenv-flow": "^4.1.0",
-    "eslint-config-prettier": "^9.1.0",
-    "express": "^4.21.1",
-    "helmet": "^8.0.0",
-    "source-map-support": "^0.5.21",
-    "winston": "^3.17.0"
-  }
+    "name": "bnetwork-backend",
+    "version": "1.0.0",
+    "description": "Believe Network backend which listen on opBNB blockchain. to get events data from bnetwork smart-contracts.",
+    "main": "server.js",
+    "scripts": {
+        "dist": "npx tsc",
+        "dev": "dotenv -e .env.development -- cross-env NODE_ENV=development nodemon src/server.ts",
+        "start": "dotenv -e .env.production -- cross-env NODE_ENV=production node dist/server.js",
+        "lint": "eslint",
+        "lint:fix": "eslint --fix",
+        "format:check": "prettier --check",
+        "format:fix": "prettier . --fix",
+        "prepare": "husky",
+        "migrate:dev": "dotenv -e .env.development -- npx prisma migrate dev",
+        "migrate:prod": "dotenv -e .env.production -- npx prisma migrate deploy",
+        "generate:dev": "dotenv -e .env.development -- npx prisma generate",
+        "generate:prod": "dotenv -e .env.production -- npx prisma generate",
+        "studio:dev": "dotenv -e .env.development -- npx prisma studio",
+        "studio:prod": "dotenv -e .env.production -- npx prisma studio",
+        "db:push:dev": "dotenv -e .env.development -- npx prisma db push",
+        "db:push:prod": "dotenv -e .env.production -- npx prisma db push"
+    },
+    "author": "Pratik",
+    "license": "ISC",
+    "lint-staged": {
+        "*.ts": [
+            "npm run lint:fix",
+            "npm run format:fix"
+        ]
+    },
+    "devDependencies": {
+        "@commitlint/cli": "^19.5.0",
+        "@commitlint/config-conventional": "^19.5.0",
+        "@eslint/js": "^9.15.0",
+        "@types/eslint__js": "^8.42.3",
+        "@types/express": "^5.0.0",
+        "@types/node": "^22.9.0",
+        "@types/source-map-support": "^0.5.10",
+        "@typescript-eslint/eslint-plugin": "^8.14.0",
+        "@typescript-eslint/parser": "^8.14.0",
+        "dotenv-cli": "^7.4.2",
+        "eslint": "^9.15.0",
+        "husky": "^9.1.6",
+        "lint-staged": "^15.2.10",
+        "nodemon": "^3.1.7",
+        "prettier": "3.3.3",
+        "prisma": "^5.22.0",
+        "ts-node": "^10.9.2",
+        "typescript": "^5.6.3",
+        "typescript-eslint": "^8.14.0"
+    },
+    "dependencies": {
+        "@prisma/client": "^5.22.0",
+        "colorette": "^2.0.20",
+        "cross-env": "^7.0.3",
+        "dotenv": "^16.4.5",
+        "dotenv-flow": "^4.1.0",
+        "eslint-config-prettier": "^9.1.0",
+        "express": "^4.21.1",
+        "helmet": "^8.0.0",
+        "source-map-support": "^0.5.21",
+        "winston": "^3.17.0"
+    }
 }
+
