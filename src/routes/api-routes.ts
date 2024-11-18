@@ -4,6 +4,8 @@ import apiController from '../controller/api-controller'
 const router:Router = Router()
 
 
-router.route('/self').get(apiController.self)
+
 router.route('/backendhealth').get(apiController.health)
+router.route('/registerUser').post(apiController.registerUser)
+
 export default router 

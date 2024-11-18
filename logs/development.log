@@ -1820,3 +1820,74 @@
         }
     }
 }
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-18T23:15:08.841Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-18T23:20:20.015Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "CONTROLLER_RESPONSE",
+    "timestamp": "2024-11-18T23:20:31.965Z",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/api/v1/registerUser"
+        },
+        "message": "User already exist",
+        "data": ""
+    }
+}
+{
+    "level": "INFO",
+    "message": "CONTROLLER_RESPONSE",
+    "timestamp": "2024-11-18T23:22:57.756Z",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/api/v1/backendhealth"
+        },
+        "message": "The operation has been successful",
+        "data": {
+            "application": {
+                "environment": "development",
+                "uptime": "158.54 Second",
+                "memoryUsage": {
+                    "heapTotal": "182.53 MB",
+                    "heapUsed": "177.12 MB"
+                }
+            },
+            "system": {
+                "cpuUsage": [
+                    3.09423828125,
+                    3.09228515625,
+                    2.68798828125
+                ],
+                "totalMemory": "16384.00 MB",
+                "freeMemory": "212.91 MB",
+                "usedMemory": "16171.09 MB",
+                "memoryUsagePercentage": "98.70 %"
+            },
+            "timestamp": 1731972177755
+        }
+    }
+}
