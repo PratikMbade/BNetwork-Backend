@@ -1,18 +1,44 @@
 import { prisma } from '../../app'
+import { distributeAutopoolEarning } from '../../helper/earning-distribute-cosmos/autopool'
+import { distributeDirectEarning, distributeLevelEarning, distributeUpgradeEaning } from '../../helper/earning-distribute-cosmos/earning'
+import { getCosmosPlanetDetailsById } from '../../types/type'
+import logger from '../../util/logger'
 
+const handleEarningsDistribution = async (
+    wallet_address: string,
+    planetName: string,
+    planetNum: number,
+    planetPrice: number,
+    universalPlanetCount: number,
+    bn_id: string
+) => {
+    try {
+        if (planetName === 'Earth') {
+            await distributeDirectEarning(wallet_address, planetName)
+        }
 
+        await distributeLevelEarning(wallet_address, planetName, planetPrice)
 
+        if (planetName !== 'Earth') {
+            await distributeUpgradeEaning(wallet_address, planetNum, planetPrice, planetName)
+        }
 
-export const registerNewUser = async (publicAddress: string, sponsorAddress: string) => {
+        await distributeAutopoolEarning(wallet_address, planetName, planetPrice, universalPlanetCount, bn_id)
+    } catch (error) {
+        logger.error('Error in earnings distribution:', error)
+        throw error // This will cause the transaction to roll back if something goes wrong
+    }
+}
+
+export const registerNewUser = async (publicAddress: string, sponserAddress: string, regId: number) => {
     const userExists = await prisma.user.findFirst({ where: { wallet_address: publicAddress } })
 
-    if(userExists){
+    if (userExists) {
         throw new Error('User already registered')
-
     }
 
     const sponsor = await prisma.user.findFirst({
-        where: { wallet_address: sponsorAddress },
+        where: { wallet_address: sponserAddress },
         include: { bnCoinEarned: true, direct_team: true }
     })
 
@@ -41,8 +67,9 @@ export const registerNewUser = async (publicAddress: string, sponsorAddress: str
 
     const newUser = await prisma.user.create({
         data: {
+            regId,
             wallet_address: publicAddress,
-            sponser_address: sponsorAddress,
+            sponser_address: sponserAddress,
             bn_id: newBNId,
             isRegistered: true,
             bnCoinEarned: {
@@ -88,5 +115,84 @@ export const registerNewUser = async (publicAddress: string, sponsorAddress: str
     })
 
     return newUser
+}
+
+export const buyPlanetInCosmos = async (wallet_address: string, planetId: number) => {
+    const { planetNum, planetName, planetPrice } = getCosmosPlanetDetailsById(planetId)
+
+    logger.info('planet data ', {
+        meta: {
+            planetName: planetName,
+            planetNum: planetNum
+        }
+    })
+
+    const user = await prisma.user.findFirst({
+        where: {
+            wallet_address
+        },
+
+        include: { cosmosPlanets: true, bnCoinEarned: true }
+    })
+
+    if (!user) {
+        throw new Error('User not found')
+    }
+
+    const isAlreadyBought = user.cosmosPlanets.some((planet) => planet.planetNum === planetNum)
+
+    if (isAlreadyBought) {
+        throw new Error('User already bought this planet')
+    }
+
+    await prisma.$transaction(
+        async (prisma) => {
+            const newPlanet = await prisma.cosmosPlanet.create({
+                data: {
+                    planetName,
+                    planetNum,
+                    planetPrice,
+                    user: { connect: { id: user.id } },
+                    planet: {
+                        connectOrCreate: {
+                            where: { planetNum }, // Assuming planetNum is unique in the `planet` model
+                            create: {
+                                planetName,
+                                planetNum,
+                                planetPrice
+                            }
+                        }
+                    }
+                }
+            })
+
+            const updatedPlanet = await prisma.planet.update({
+                where: { planetNum },
+                data: {
+                    universalCount: { increment: 1 }
+                },
+                select: { universalCount: true }
+            })
+
+            logger.info('planet data ', {
+                meta: {
+                    update: updatedPlanet
+                }
+            })
+
+            return newPlanet
+        },
+        { timeout: 20000 }
+    )
+
+    const updatedPlanet = await prisma.planet.update({
+        where: { planetNum },
+        data: {
+            universalCount: { increment: 1 }
+        },
+        select: { universalCount: true }
+    })
+
+    await handleEarningsDistribution(user.wallet_address, planetName, planetNum, planetPrice, updatedPlanet.universalCount, user.bn_id!)
 }
 

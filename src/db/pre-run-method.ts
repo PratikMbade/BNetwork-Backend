@@ -1,6 +1,5 @@
-/* eslint-disable @typescript-eslint/no-unused-vars */
+
 import { prisma } from '../app'
-import { UniversePlanetBuyTypes } from '../types/type'
 import logger from '../util/logger'
 
 export async function seedBNCoinConfig() {
@@ -17,6 +16,43 @@ export async function seedBNCoinConfig() {
             BNAirDropCoinDistributed: 0
         }
     })
+}
+
+export async function createOwnerInUsersTable(){
+    try {
+
+        const wallet_address = '0xA30224CA6A6004369114F6A027e8A829EDcDa501';
+        const findIsOwnercreate = await prisma.user.findFirst({
+            where:{
+                wallet_address
+            }
+        })
+
+        if(findIsOwnercreate){
+            return findIsOwnercreate
+        }
+
+       const owner =  await prisma.user.create({
+            data:{
+                regId: 0,
+                bn_id: 'BN' + wallet_address.slice(-8),
+                wallet_address,
+                sponser_address:'',
+                directTeam_Count: 0,
+                totalTeam_Count: 0,
+                registrationTranxhash: null,
+                lastestPlanetName: null,
+                totalBNCoin: 0,
+                isRegistered: true
+            }
+        })
+    
+        return owner
+        
+    } catch (error) {
+        logger.error('soemthing went wrong will create owner',error)
+        return null;
+    }
 }
 
 export async function createFirstOwner() {
@@ -39,13 +75,13 @@ export async function createFirstOwner() {
             }
         })
 
-        const data: UniversePlanetBuyTypes = {
-            planetId: 1,
-            planetName: 'Earth',
-            planetPrice: 10,
-            sponser_address: sponser_address,
-            wallet_address: wallet_address
-        }
+        // const data: UniversePlanetBuyTypes = {
+        //     planetId: 1,
+        //     planetName: 'Earth',
+        //     planetPrice: 10,
+        //     sponser_address: sponser_address,
+        //     wallet_address: wallet_address
+        // }
 
         // buyUniversePlanetHandler(data)
 
@@ -57,12 +93,25 @@ export async function createFirstOwner() {
 
 export async function createOwnerInCosMosAutopool() {
     try {
+
+        const reg_user_address = '0xA30224CA6A6004369114F6A027e8A829EDcDa501'
+
+        const OwnerCreate = await prisma.cosMosAutoPool.findFirst({
+            where:{
+                reg_user_address:reg_user_address
+            }
+        })
+
+
+        if(OwnerCreate){
+            return  OwnerCreate;
+        }
         const dummyUser = await prisma.cosMosAutoPool.create({
             data: {
-                bn_id: 'BN22cfD778', // Replace with your desired bn_id
-                reg_user_address: '0xF346C0856DF3e220E57293a0CF125C1322cfD778',
+                bn_id: 'BNEDcDa501', // Replace with your desired bn_id
+                reg_user_address: '0xA30224CA6A6004369114F6A027e8A829EDcDa501',
                 universeSlot: 0,
-                planetName: 'Pluto', // You can adjust this or leave it null
+                planetName: 'Earth', // You can adjust this or leave it null
                 currentLevel: 0, // Example value, adjust as needed
                 currentPosition: 0, // Example value, adjust as needed
                 autoPoolEarning: 0, // Example value, adjust as needed
@@ -72,8 +121,12 @@ export async function createOwnerInCosMosAutopool() {
         })
 
         logger.log('owner created successfully in autopool:', dummyUser)
+
+        return dummyUser
     } catch (error) {
         logger.error('Error creating owner :', error)
+
+        return null
     }
 }
 

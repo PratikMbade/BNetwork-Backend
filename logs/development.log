@@ -1891,3 +1891,6447 @@
         }
     }
 }
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T20:01:13.958Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T20:05:03.938Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "ERROR",
+    "message": "soemthing went wrong will create owner \nInvalid `prisma.user.create()` invocation in\n/Users/pratikbade/Desktop/Development/BNetwork-Backend/src/db/pre-run-method.ts:26:41\n\n  23 \n  24  const wallet_address = '0xA30224CA6A6004369114F6A027e8A829EDcDa501';\n  25 \n→ 26 const owner =  await prisma.user.create(\nUnique constraint failed on the fields: (`regId`)",
+    "timestamp": "2024-11-19T20:05:03.968Z",
+    "meta": {
+        "modelName": "User",
+        "target": [
+            "regId"
+        ]
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T20:05:03.968Z",
+    "meta": {
+        "user": null
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T20:05:56.165Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T20:05:56.197Z",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T20:06:02.532Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T20:06:02.553Z",
+    "meta": {
+        "user": {
+            "id": "cm3ovr0o20000kcxfsm8idzeb",
+            "regId": 0,
+            "registeredTime": null,
+            "bn_id": "BNEDcDa501",
+            "wallet_address": "0xA30224CA6A6004369114F6A027e8A829EDcDa501",
+            "sponser_address": "",
+            "directTeam_Count": 0,
+            "totalTeam_Count": 0,
+            "isRegistered": true,
+            "registrationTranxhash": null,
+            "createdAt": "2024-11-19T20:01:14.017Z",
+            "updatedAt": "2024-11-19T20:01:14.017Z",
+            "lastestPlanetName": null,
+            "currentUniversePlanet": 0,
+            "totalBNCoin": 0,
+            "directEarning": 0,
+            "levelEarning": 0,
+            "upgradeEarning": 0,
+            "myLaps": 0,
+            "universeDirectEarning": 0,
+            "universeUpgradeEarning": 0,
+            "universePlanetCount": null
+        }
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T20:06:16.877Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T20:06:16.899Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T20:06:24.714Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T20:06:24.735Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T20:08:28.919Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T20:08:28.941Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T20:19:45.930Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T20:19:45.950Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T20:21:26.704Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T20:21:26.752Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T20:21:28.971Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T20:21:28.993Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T20:21:30.307Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T20:21:30.326Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T20:24:49.149Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T20:24:49.178Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "CONTROLLER_RESPONSE",
+    "timestamp": "2024-11-19T20:25:02.431Z",
+    "meta": {
+        "success": true,
+        "statusCode": 201,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/api/v1/registerUser"
+        },
+        "message": "User registered successfully",
+        "data": {
+            "id": "cm3owlmth0001fhgl02rfc9ga",
+            "regId": 1,
+            "registeredTime": null,
+            "bn_id": "BNf2FF3D4C",
+            "wallet_address": "0x2C7f4dB6A0B1df04EA8550c219318C7f2FF3D4C",
+            "sponser_address": "0xA30224CA6A6004369114F6A027e8A829EDcDa501",
+            "directTeam_Count": 0,
+            "totalTeam_Count": 0,
+            "isRegistered": true,
+            "registrationTranxhash": null,
+            "createdAt": "2024-11-19T20:25:02.405Z",
+            "updatedAt": "2024-11-19T20:25:02.405Z",
+            "lastestPlanetName": null,
+            "currentUniversePlanet": 0,
+            "totalBNCoin": null,
+            "directEarning": 0,
+            "levelEarning": 0,
+            "upgradeEarning": 0,
+            "myLaps": 0,
+            "universeDirectEarning": 0,
+            "universeUpgradeEarning": 0,
+            "universePlanetCount": null
+        }
+    }
+}
+{
+    "level": "INFO",
+    "message": "CONTROLLER_RESPONSE",
+    "timestamp": "2024-11-19T20:25:49.892Z",
+    "meta": {
+        "success": true,
+        "statusCode": 201,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/api/v1/registerUser"
+        },
+        "message": "User registered successfully",
+        "data": {
+            "id": "cm3owmnfx0005fhgllvgqwrkw",
+            "regId": 2,
+            "registeredTime": null,
+            "bn_id": "BNe8c8F14c",
+            "wallet_address": "0xAC58E0FBcf44D545d078cDC8d048824ee8c8F14c",
+            "sponser_address": "0x2C7f4dB6A0B1df04EA8550c219318C7f2FF3D4C",
+            "directTeam_Count": 0,
+            "totalTeam_Count": 0,
+            "isRegistered": true,
+            "registrationTranxhash": null,
+            "createdAt": "2024-11-19T20:25:49.870Z",
+            "updatedAt": "2024-11-19T20:25:49.870Z",
+            "lastestPlanetName": null,
+            "currentUniversePlanet": 0,
+            "totalBNCoin": null,
+            "directEarning": 0,
+            "levelEarning": 0,
+            "upgradeEarning": 0,
+            "myLaps": 0,
+            "universeDirectEarning": 0,
+            "universeUpgradeEarning": 0,
+            "universePlanetCount": null
+        }
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:11:10.303Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:11:10.353Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:13:10.565Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:13:10.589Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:13:13.602Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:13:13.628Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:13:15.088Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:13:15.112Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:13:22.421Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:13:22.444Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:13:27.840Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:13:27.863Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:13:29.985Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:13:30.013Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:13:30.939Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:13:30.962Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:15:17.724Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:15:17.747Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:16:01.532Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:16:01.581Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:16:03.430Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:16:03.462Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:16:13.375Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:16:13.398Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:17:18.552Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:17:18.578Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:17:20.969Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:17:20.993Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:17:23.749Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:17:23.774Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:17:29.005Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:17:29.027Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:17:31.184Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:17:31.208Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:17:32.880Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:17:32.907Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:17:34.056Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:17:34.079Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:17:36.196Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:17:36.219Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:17:45.550Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:17:45.572Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:17:47.541Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:17:48.357Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:17:48.380Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:17:52.833Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:17:52.854Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:17:54.385Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:17:54.410Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:18:00.933Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:18:00.963Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:18:07.399Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:18:07.420Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:18:11.374Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:18:11.404Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:18:14.189Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:18:14.213Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:18:16.398Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:18:16.421Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:18:19.238Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:18:19.263Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:18:31.560Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:18:31.580Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:18:38.461Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:18:38.484Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:18:41.948Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:18:41.969Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:18:43.256Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:18:43.280Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:18:48.897Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:18:48.920Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:18:50.117Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:18:50.140Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:18:57.487Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:18:57.509Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:19:06.286Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:19:06.310Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:19:08.416Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:19:08.440Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:19:11.338Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:19:11.361Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:19:19.616Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:19:19.643Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:19:20.777Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:19:20.802Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:19:25.073Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:19:25.096Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:19:29.024Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:19:29.051Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:19:31.131Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:19:31.152Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:19:32.839Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:19:32.863Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:19:39.813Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:19:39.835Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:19:42.241Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:19:42.265Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:19:44.885Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:19:44.909Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:19:46.153Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:19:46.175Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:19:47.721Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:19:47.744Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:19:50.273Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:19:50.296Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:19:53.822Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:19:53.843Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:19:55.148Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:19:55.172Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:19:57.845Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:19:57.868Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:19:59.868Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:19:59.891Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:20:01.148Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:20:01.172Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:20:04.130Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:20:04.153Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:20:05.354Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:20:05.377Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:20:07.689Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:20:07.712Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:20:09.338Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:20:09.362Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:20:10.678Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:20:10.700Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:20:12.080Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:20:12.103Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:20:14.335Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:20:14.373Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:20:15.462Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:20:15.484Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:20:16.666Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:20:16.689Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:20:20.821Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:20:20.843Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:20:22.161Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:20:22.184Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:20:59.450Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:20:59.473Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:21:28.988Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:21:29.014Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:22:10.210Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:22:10.234Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:22:20.271Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:22:20.293Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:22:24.643Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:22:24.665Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:22:26.638Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:22:26.661Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:22:28.462Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:22:28.485Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:22:32.081Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:22:32.106Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:22:34.819Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:22:34.843Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:22:38.518Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:22:38.541Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:22:39.540Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:22:39.565Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:22:43.338Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:22:43.360Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:22:56.533Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:22:56.557Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:23:02.373Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:23:02.397Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:23:07.945Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:23:07.974Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:23:24.266Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:23:24.284Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:23:28.929Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:23:28.953Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:23:34.250Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:23:34.275Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:23:35.267Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:23:35.289Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:23:36.124Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:23:36.147Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:23:38.809Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:23:38.834Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:23:43.707Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:23:43.737Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:23:51.123Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:23:51.148Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:23:54.687Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:23:54.709Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:23:59.137Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:23:59.158Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:24:02.675Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:24:02.696Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:24:03.874Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:24:03.897Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:24:05.026Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:24:05.050Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:24:08.178Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:24:08.201Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:24:13.267Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:24:13.292Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:24:19.178Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:24:19.204Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:24:20.969Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:24:20.992Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:24:24.488Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:24:24.511Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:24:27.703Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:24:27.725Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:24:39.017Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:24:39.043Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:24:40.990Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:24:41.013Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:24:44.074Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:24:44.107Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:24:46.025Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:24:46.047Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:24:46.866Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:24:46.890Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:24:52.558Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:24:52.581Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:24:54.006Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:24:54.031Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:24:56.519Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:24:56.543Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:24:57.962Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:24:57.986Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:25:27.870Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:25:27.893Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:25:29.403Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:25:29.425Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:25:35.340Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:25:35.368Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:25:44.464Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:25:44.489Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:25:52.710Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:25:52.732Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:25:55.095Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:25:55.120Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:26:09.017Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:26:09.046Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:26:14.191Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:26:14.216Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:26:20.671Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:26:20.696Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:26:29.452Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:26:29.478Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:26:38.156Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:26:38.183Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:26:45.500Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:26:45.524Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:26:52.238Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:26:52.264Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:26:53.854Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:26:53.877Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:27:10.702Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:27:10.729Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:27:11.996Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:27:12.019Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:27:16.212Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:27:16.239Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:27:22.426Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:27:22.449Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:27:23.465Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:27:23.490Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:27:29.576Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:27:29.601Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:27:31.189Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:27:31.214Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:27:32.706Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:27:32.730Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:27:35.534Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:27:35.562Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:27:37.513Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:27:37.536Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:27:41.460Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:27:41.485Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:27:43.866Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:27:43.896Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:27:45.211Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:27:45.234Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:27:46.876Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:27:46.902Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:27:49.466Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:27:49.489Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:27:55.125Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:27:55.151Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:28:02.786Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:28:02.813Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:28:04.266Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:28:04.283Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:28:07.471Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:28:07.496Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:28:11.144Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:28:11.171Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:28:12.884Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:28:12.908Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:28:16.326Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:28:16.352Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:28:18.050Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:28:18.076Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:28:21.156Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:28:21.179Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:28:26.151Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:28:26.177Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:28:31.483Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:28:31.508Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:28:35.113Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:28:35.139Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:28:36.872Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:28:36.898Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:28:40.589Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:28:40.613Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:28:45.664Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:28:45.687Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:28:47.352Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:28:47.378Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:28:50.494Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:28:50.518Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:28:53.704Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:28:53.728Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:28:58.727Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:28:58.754Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:29:01.745Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:29:01.770Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:29:08.285Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:29:08.309Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:29:11.333Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:29:11.358Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:29:14.936Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:29:14.961Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:29:18.139Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:29:18.166Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:29:34.244Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:29:34.270Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:29:50.560Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:29:50.587Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:30:04.044Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:30:04.071Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:30:05.827Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:30:05.853Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:31:16.079Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:31:16.105Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:31:37.687Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:31:37.714Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:31:39.771Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:31:39.796Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:31:52.218Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:31:52.244Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:31:55.324Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:31:55.349Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:32:03.527Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:32:03.552Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:32:04.619Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:32:10.358Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:32:10.381Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:32:12.493Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:32:12.515Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:32:15.485Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:32:15.509Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:32:16.811Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:32:16.833Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:32:18.980Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:32:19.004Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:32:20.136Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:32:20.160Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:32:40.732Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:32:40.757Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:32:44.745Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:32:44.772Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:32:49.210Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:32:49.234Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:32:54.098Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:32:54.125Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:33:08.519Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:33:08.543Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:33:14.718Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:33:14.743Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:33:15.865Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:33:15.892Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:33:17.388Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:33:17.411Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:33:18.361Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:33:18.387Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:33:21.650Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:33:21.674Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:33:22.712Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:33:22.735Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:33:27.682Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:33:27.708Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:33:29.859Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:33:29.884Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:33:37.011Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:33:37.039Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:33:41.111Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:33:41.133Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:33:52.760Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:33:52.785Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:33:57.151Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:33:57.175Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:34:05.627Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:34:05.654Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:34:15.223Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:34:15.248Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:34:22.985Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:34:23.013Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:34:29.294Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:34:29.315Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:34:33.998Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:34:34.023Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:35:18.741Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:35:38.640Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "ERROR",
+    "message": "Error in listenOnContract: Connection not open",
+    "timestamp": "2024-11-19T21:36:09.559Z",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:36:09.567Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:37:54.740Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:37:55.989Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:38:04.574Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:38:08.780Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:38:15.024Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:38:22.727Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "ERROR",
+    "message": "Error in listenOnContract: Connection not open",
+    "timestamp": "2024-11-19T21:38:55.704Z",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:38:55.712Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "CONTRACT",
+    "timestamp": "2024-11-19T21:43:16.040Z",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:43:16.065Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "CONTRACT",
+    "timestamp": "2024-11-19T21:43:31.057Z",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:43:31.083Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "CONTRACT",
+    "timestamp": "2024-11-19T21:43:35.597Z",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:43:35.624Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "ERROR",
+    "message": "Error in listenOnContract: Connection not open",
+    "timestamp": "2024-11-19T21:44:08.856Z",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:44:08.861Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "CONTRACT",
+    "timestamp": "2024-11-19T21:44:14.687Z",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:44:14.715Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "CONTRACT",
+    "timestamp": "2024-11-19T21:44:20.118Z",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:44:20.146Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "CONTRACT",
+    "timestamp": "2024-11-19T21:44:40.956Z",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:44:40.981Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "CONTRACT",
+    "timestamp": "2024-11-19T21:44:47.794Z",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:44:47.820Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "CONTRACT",
+    "timestamp": "2024-11-19T21:45:05.879Z",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:45:05.905Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "CONTRACT",
+    "timestamp": "2024-11-19T21:45:13.769Z",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:45:13.794Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "event url is ",
+    "timestamp": "2024-11-19T21:45:37.164Z",
+    "meta": {
+        "url": "wss://go.getblock.io/603609eb504a46f5a659fa82ddfb021e"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:45:37.191Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "event url is ",
+    "timestamp": "2024-11-19T21:45:55.152Z",
+    "meta": {
+        "url": "wss://go.getblock.io/603609eb504a46f5a659fa82ddfb021e"
+    }
+}
+{
+    "level": "INFO",
+    "message": "CONTRACT",
+    "timestamp": "2024-11-19T21:45:55.154Z",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:45:55.178Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "event url is ",
+    "timestamp": "2024-11-19T21:45:56.152Z",
+    "meta": {
+        "url": "wss://go.getblock.io/603609eb504a46f5a659fa82ddfb021e"
+    }
+}
+{
+    "level": "INFO",
+    "message": "CONTRACT",
+    "timestamp": "2024-11-19T21:45:56.154Z",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:45:56.178Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "event url is ",
+    "timestamp": "2024-11-19T21:46:02.112Z",
+    "meta": {
+        "url": "wss://go.getblock.io/603609eb504a46f5a659fa82ddfb021e"
+    }
+}
+{
+    "level": "INFO",
+    "message": "cosmos contract is ",
+    "timestamp": "2024-11-19T21:46:02.113Z",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:46:02.139Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "event url is ",
+    "timestamp": "2024-11-19T21:46:11.763Z",
+    "meta": {
+        "url": "wss://go.getblock.io/603609eb504a46f5a659fa82ddfb021e"
+    }
+}
+{
+    "level": "INFO",
+    "message": "cosmos contract is ",
+    "timestamp": "2024-11-19T21:46:11.766Z",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:46:11.789Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "event url is ",
+    "timestamp": "2024-11-19T21:46:19.456Z",
+    "meta": {
+        "url": "wss://go.getblock.io/603609eb504a46f5a659fa82ddfb021e"
+    }
+}
+{
+    "level": "INFO",
+    "message": "cosmos contract is ",
+    "timestamp": "2024-11-19T21:46:19.458Z",
+    "meta": {
+        "url": "wss://go.getblock.io/603609eb504a46f5a659fa82ddfb021e"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:46:19.482Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "event url is ",
+    "timestamp": "2024-11-19T21:46:26.189Z",
+    "meta": {
+        "url": "wss://go.getblock.io/603609eb504a46f5a659fa82ddfb021e"
+    }
+}
+{
+    "level": "INFO",
+    "message": "cosmos contract is ",
+    "timestamp": "2024-11-19T21:46:26.191Z",
+    "meta": {
+        "url": "0x224B64FD5d1ddAEC0EE29378b8c3ad58D24894e1"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:46:26.215Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "ERROR",
+    "message": "Error in listenOnContract: Connection not open",
+    "timestamp": "2024-11-19T21:46:57.467Z",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:46:57.473Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "event url is ",
+    "timestamp": "2024-11-19T21:49:20.973Z",
+    "meta": {
+        "url": "wss://go.getblock.io/603609eb504a46f5a659fa82ddfb021e"
+    }
+}
+{
+    "level": "INFO",
+    "message": "cosmos contract is ",
+    "timestamp": "2024-11-19T21:49:20.975Z",
+    "meta": {
+        "url": "0x224B64FD5d1ddAEC0EE29378b8c3ad58D24894e1"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:49:21.000Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "event url is ",
+    "timestamp": "2024-11-19T21:52:47.854Z",
+    "meta": {
+        "url": "wss://go.getblock.io/603609eb504a46f5a659fa82ddfb021e"
+    }
+}
+{
+    "level": "INFO",
+    "message": "cosmos contract is ",
+    "timestamp": "2024-11-19T21:52:47.857Z",
+    "meta": {
+        "url": "0x224B64FD5d1ddAEC0EE29378b8c3ad58D24894e1"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:52:47.883Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "event url is ",
+    "timestamp": "2024-11-19T21:52:48.939Z",
+    "meta": {
+        "url": "wss://go.getblock.io/603609eb504a46f5a659fa82ddfb021e"
+    }
+}
+{
+    "level": "INFO",
+    "message": "cosmos contract is ",
+    "timestamp": "2024-11-19T21:52:48.941Z",
+    "meta": {
+        "url": "0x224B64FD5d1ddAEC0EE29378b8c3ad58D24894e1"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:52:48.965Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "event url is ",
+    "timestamp": "2024-11-19T21:52:50.749Z",
+    "meta": {
+        "url": "wss://go.getblock.io/603609eb504a46f5a659fa82ddfb021e"
+    }
+}
+{
+    "level": "INFO",
+    "message": "cosmos contract is ",
+    "timestamp": "2024-11-19T21:52:50.750Z",
+    "meta": {
+        "url": "0x224B64FD5d1ddAEC0EE29378b8c3ad58D24894e1"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:52:50.774Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "ERROR",
+    "message": "Error in listenOnContract: Connection not open",
+    "timestamp": "2024-11-19T21:53:22.504Z",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:53:22.514Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "event url is ",
+    "timestamp": "2024-11-19T21:56:34.671Z",
+    "meta": {
+        "url": "wss://go.getblock.io/603609eb504a46f5a659fa82ddfb021e"
+    }
+}
+{
+    "level": "INFO",
+    "message": "cosmos contract is ",
+    "timestamp": "2024-11-19T21:56:34.673Z",
+    "meta": {
+        "url": "0x224B64FD5d1ddAEC0EE29378b8c3ad58D24894e1"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-19T21:56:34.697Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "ERROR",
+    "message": "WebSocket connection error: Unexpected server response: 503",
+    "timestamp": "2024-11-19T21:56:36.260Z",
+    "meta": {}
+}
+{
+    "level": "ERROR",
+    "message": "WebSocket connection error: Unexpected server response: 503",
+    "timestamp": "2024-11-19T21:56:43.191Z",
+    "meta": {}
+}
+{
+    "level": "ERROR",
+    "message": "WebSocket connection error: Unexpected server response: 503",
+    "timestamp": "2024-11-19T21:56:48.759Z",
+    "meta": {}
+}
+{
+    "level": "ERROR",
+    "message": "WebSocket connection error: Unexpected server response: 503",
+    "timestamp": "2024-11-19T21:56:54.686Z",
+    "meta": {}
+}
+{
+    "level": "ERROR",
+    "message": "WebSocket connection error: Unexpected server response: 503",
+    "timestamp": "2024-11-19T21:57:00.726Z",
+    "meta": {}
+}
+{
+    "level": "ERROR",
+    "message": "WebSocket connection error: Unexpected server response: 503",
+    "timestamp": "2024-11-19T21:57:06.882Z",
+    "meta": {}
+}
+{
+    "level": "ERROR",
+    "message": "WebSocket connection error: Maximum number of reconnect attempts reached! (5)",
+    "timestamp": "2024-11-19T21:57:06.902Z",
+    "meta": {}
+}
+{
+    "level": "ERROR",
+    "message": "WebSocket connection error: Connection not open",
+    "timestamp": "2024-11-19T21:57:06.904Z",
+    "meta": {}
+}
+{
+    "level": "ERROR",
+    "message": "Error in listenOnContract: Connection not open",
+    "timestamp": "2024-11-19T21:57:06.905Z",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-19T21:57:06.915Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "event url is ",
+    "timestamp": "2024-11-20T05:06:24.030Z",
+    "meta": {
+        "url": "wss://go.getblock.io/603609eb504a46f5a659fa82ddfb021e"
+    }
+}
+{
+    "level": "INFO",
+    "message": "cosmos contract is ",
+    "timestamp": "2024-11-20T05:06:24.032Z",
+    "meta": {
+        "url": "0x224B64FD5d1ddAEC0EE29378b8c3ad58D24894e1"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-20T05:06:24.063Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "ERROR",
+    "message": "APPLICATION_ERROR",
+    "timestamp": "2024-11-20T05:06:24.101Z",
+    "meta": {
+        "name": "PrismaClientInitializationError",
+        "clientVersion": "5.22.0"
+    }
+}
+{
+    "level": "INFO",
+    "message": "event url is ",
+    "timestamp": "2024-11-20T05:07:09.623Z",
+    "meta": {
+        "url": "wss://go.getblock.io/603609eb504a46f5a659fa82ddfb021e"
+    }
+}
+{
+    "level": "INFO",
+    "message": "cosmos contract is ",
+    "timestamp": "2024-11-20T05:07:09.625Z",
+    "meta": {
+        "url": "0x224B64FD5d1ddAEC0EE29378b8c3ad58D24894e1"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-20T05:07:09.652Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "WebSocket connection established",
+    "timestamp": "2024-11-20T05:07:11.498Z",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-20T05:07:11.539Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "event url is ",
+    "timestamp": "2024-11-20T05:11:24.607Z",
+    "meta": {
+        "url": "wss://go.getblock.io/603609eb504a46f5a659fa82ddfb021e"
+    }
+}
+{
+    "level": "INFO",
+    "message": "cosmos contract is ",
+    "timestamp": "2024-11-20T05:11:24.609Z",
+    "meta": {
+        "url": "0x224B64FD5d1ddAEC0EE29378b8c3ad58D24894e1"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-20T05:11:24.634Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "WebSocket connection established",
+    "timestamp": "2024-11-20T05:11:26.801Z",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-20T05:11:26.829Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "event url is ",
+    "timestamp": "2024-11-20T20:11:39.407Z",
+    "meta": {
+        "url": "wss://go.getblock.io/603609eb504a46f5a659fa82ddfb021e"
+    }
+}
+{
+    "level": "INFO",
+    "message": "cosmos contract is ",
+    "timestamp": "2024-11-20T20:11:39.409Z",
+    "meta": {
+        "url": "0x224B64FD5d1ddAEC0EE29378b8c3ad58D24894e1"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-20T20:11:39.440Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "WebSocket connection established",
+    "timestamp": "2024-11-20T20:11:41.130Z",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-20T20:11:41.153Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "event url is ",
+    "timestamp": "2024-11-21T20:11:14.520Z",
+    "meta": {
+        "url": "wss://go.getblock.io/603609eb504a46f5a659fa82ddfb021e"
+    }
+}
+{
+    "level": "INFO",
+    "message": "event url is ",
+    "timestamp": "2024-11-21T20:11:40.194Z",
+    "meta": {
+        "url": "wss://go.getblock.io/603609eb504a46f5a659fa82ddfb021e"
+    }
+}
+{
+    "level": "INFO",
+    "message": "cosmos contract is ",
+    "timestamp": "2024-11-21T20:11:40.196Z",
+    "meta": {
+        "url": "0x224B64FD5d1ddAEC0EE29378b8c3ad58D24894e1"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-21T20:11:40.226Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "WebSocket connection established",
+    "timestamp": "2024-11-21T20:11:41.815Z",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-21T20:11:41.863Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "event url is ",
+    "timestamp": "2024-11-21T20:15:07.869Z",
+    "meta": {
+        "url": "wss://go.getblock.io/603609eb504a46f5a659fa82ddfb021e"
+    }
+}
+{
+    "level": "INFO",
+    "message": "cosmos contract is ",
+    "timestamp": "2024-11-21T20:15:07.872Z",
+    "meta": {
+        "url": "0x224B64FD5d1ddAEC0EE29378b8c3ad58D24894e1"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-21T20:15:07.899Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-21T20:15:09.479Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Cosmos owner created",
+    "timestamp": "2024-11-21T20:15:09.495Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "WebSocket connection established",
+    "timestamp": "2024-11-21T20:15:09.635Z",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "message": "event url is ",
+    "timestamp": "2024-11-21T20:28:12.008Z",
+    "meta": {
+        "url": "wss://go.getblock.io/603609eb504a46f5a659fa82ddfb021e"
+    }
+}
+{
+    "level": "INFO",
+    "message": "cosmos contract is ",
+    "timestamp": "2024-11-21T20:28:12.010Z",
+    "meta": {
+        "url": "0x224B64FD5d1ddAEC0EE29378b8c3ad58D24894e1"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-21T20:28:12.037Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "WebSocket connection established",
+    "timestamp": "2024-11-21T20:28:14.560Z",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-21T20:28:14.569Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "ERROR",
+    "message": "Error creating owner : \nInvalid `prisma.cosMosAutoPool.create()` invocation in\n/Users/pratikbade/Desktop/Development/BNetwork-Backend/src/db/pre-run-method.ts:96:55\n\n  93 \n  94 export async function createOwnerInCosMosAutopool() {\n  95     try {\n→ 96         const dummyUser = await prisma.cosMosAutoPool.create(\nUnique constraint failed on the fields: (`bn_id`,`planetName`)",
+    "timestamp": "2024-11-21T20:28:14.593Z",
+    "meta": {
+        "modelName": "CosMosAutoPool",
+        "target": [
+            "bn_id",
+            "planetName"
+        ]
+    }
+}
+{
+    "level": "INFO",
+    "message": "Cosmos owner created",
+    "timestamp": "2024-11-21T20:28:14.593Z",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "message": "event url is ",
+    "timestamp": "2024-11-21T20:30:12.168Z",
+    "meta": {
+        "url": "wss://go.getblock.io/603609eb504a46f5a659fa82ddfb021e"
+    }
+}
+{
+    "level": "INFO",
+    "message": "cosmos contract is ",
+    "timestamp": "2024-11-21T20:30:12.170Z",
+    "meta": {
+        "url": "0x224B64FD5d1ddAEC0EE29378b8c3ad58D24894e1"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-21T20:30:12.196Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "event url is ",
+    "timestamp": "2024-11-21T20:30:14.038Z",
+    "meta": {
+        "url": "wss://go.getblock.io/603609eb504a46f5a659fa82ddfb021e"
+    }
+}
+{
+    "level": "INFO",
+    "message": "cosmos contract is ",
+    "timestamp": "2024-11-21T20:30:14.040Z",
+    "meta": {
+        "url": "0x224B64FD5d1ddAEC0EE29378b8c3ad58D24894e1"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-21T20:30:14.064Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "WebSocket connection established",
+    "timestamp": "2024-11-21T20:30:15.679Z",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-21T20:30:15.689Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Cosmos owner created",
+    "timestamp": "2024-11-21T20:30:15.696Z",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "message": "event url is ",
+    "timestamp": "2024-11-21T20:30:18.353Z",
+    "meta": {
+        "url": "wss://go.getblock.io/603609eb504a46f5a659fa82ddfb021e"
+    }
+}
+{
+    "level": "INFO",
+    "message": "cosmos contract is ",
+    "timestamp": "2024-11-21T20:30:18.355Z",
+    "meta": {
+        "url": "0x224B64FD5d1ddAEC0EE29378b8c3ad58D24894e1"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-21T20:30:18.379Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "WebSocket connection established",
+    "timestamp": "2024-11-21T20:30:19.810Z",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-21T20:30:19.856Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Cosmos owner created",
+    "timestamp": "2024-11-21T20:30:19.859Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "event url is ",
+    "timestamp": "2024-11-21T20:35:47.781Z",
+    "meta": {
+        "url": "wss://go.getblock.io/603609eb504a46f5a659fa82ddfb021e"
+    }
+}
+{
+    "level": "INFO",
+    "message": "cosmos contract is ",
+    "timestamp": "2024-11-21T20:35:47.784Z",
+    "meta": {
+        "url": "0x224B64FD5d1ddAEC0EE29378b8c3ad58D24894e1"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-21T20:35:47.816Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "WebSocket connection established",
+    "timestamp": "2024-11-21T20:35:49.696Z",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-21T20:35:49.700Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Cosmos owner created",
+    "timestamp": "2024-11-21T20:35:49.702Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "WebSocket connection established",
+    "timestamp": "2024-11-21T20:40:57.356Z",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "message": "event url is ",
+    "timestamp": "2024-11-21T21:37:41.934Z",
+    "meta": {
+        "url": "wss://go.getblock.io/603609eb504a46f5a659fa82ddfb021e"
+    }
+}
+{
+    "level": "INFO",
+    "message": "cosmos contract is ",
+    "timestamp": "2024-11-21T21:37:41.938Z",
+    "meta": {
+        "url": "0x224B64FD5d1ddAEC0EE29378b8c3ad58D24894e1"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-21T21:37:41.965Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "event url is ",
+    "timestamp": "2024-11-21T21:37:46.123Z",
+    "meta": {
+        "url": "wss://go.getblock.io/603609eb504a46f5a659fa82ddfb021e"
+    }
+}
+{
+    "level": "INFO",
+    "message": "cosmos contract is ",
+    "timestamp": "2024-11-21T21:37:46.125Z",
+    "meta": {
+        "url": "0x224B64FD5d1ddAEC0EE29378b8c3ad58D24894e1"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-21T21:37:46.149Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "event url is ",
+    "timestamp": "2024-11-21T21:37:50.691Z",
+    "meta": {
+        "url": "wss://go.getblock.io/603609eb504a46f5a659fa82ddfb021e"
+    }
+}
+{
+    "level": "INFO",
+    "message": "cosmos contract is ",
+    "timestamp": "2024-11-21T21:37:50.693Z",
+    "meta": {
+        "url": "0x224B64FD5d1ddAEC0EE29378b8c3ad58D24894e1"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-21T21:37:50.717Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "WebSocket connection established",
+    "timestamp": "2024-11-21T21:37:52.104Z",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-21T21:37:52.477Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Cosmos owner created",
+    "timestamp": "2024-11-21T21:37:52.482Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "event url is ",
+    "timestamp": "2024-11-21T21:38:22.545Z",
+    "meta": {
+        "url": "wss://go.getblock.io/603609eb504a46f5a659fa82ddfb021e"
+    }
+}
+{
+    "level": "INFO",
+    "message": "cosmos contract is ",
+    "timestamp": "2024-11-21T21:38:22.547Z",
+    "meta": {
+        "url": "0x224B64FD5d1ddAEC0EE29378b8c3ad58D24894e1"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-21T21:38:22.570Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "WebSocket connection established",
+    "timestamp": "2024-11-21T21:38:24.113Z",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "message": "event url is ",
+    "timestamp": "2024-11-21T21:38:25.348Z",
+    "meta": {
+        "url": "wss://go.getblock.io/603609eb504a46f5a659fa82ddfb021e"
+    }
+}
+{
+    "level": "INFO",
+    "message": "cosmos contract is ",
+    "timestamp": "2024-11-21T21:38:25.349Z",
+    "meta": {
+        "url": "0x224B64FD5d1ddAEC0EE29378b8c3ad58D24894e1"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-21T21:38:25.375Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "event url is ",
+    "timestamp": "2024-11-21T21:38:30.611Z",
+    "meta": {
+        "url": "wss://go.getblock.io/603609eb504a46f5a659fa82ddfb021e"
+    }
+}
+{
+    "level": "INFO",
+    "message": "cosmos contract is ",
+    "timestamp": "2024-11-21T21:38:30.613Z",
+    "meta": {
+        "url": "0x224B64FD5d1ddAEC0EE29378b8c3ad58D24894e1"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-21T21:38:30.637Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "event url is ",
+    "timestamp": "2024-11-21T21:38:34.422Z",
+    "meta": {
+        "url": "wss://go.getblock.io/603609eb504a46f5a659fa82ddfb021e"
+    }
+}
+{
+    "level": "INFO",
+    "message": "cosmos contract is ",
+    "timestamp": "2024-11-21T21:38:34.424Z",
+    "meta": {
+        "url": "0x224B64FD5d1ddAEC0EE29378b8c3ad58D24894e1"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-21T21:38:34.448Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "WebSocket connection established",
+    "timestamp": "2024-11-21T21:38:35.898Z",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-21T21:38:36.297Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Cosmos owner created",
+    "timestamp": "2024-11-21T21:38:36.301Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "distributeLevelEarning",
+    "timestamp": "2024-11-21T21:40:26.240Z",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "message": "no return yet 1",
+    "timestamp": "2024-11-21T21:40:26.241Z",
+    "meta": {}
+}
+{
+    "level": "ERROR",
+    "message": "something went wrong in the distributeLevelEarning user ancestors legnth 0",
+    "timestamp": "2024-11-21T21:40:26.243Z",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "message": "user address: 0x2C7f4dB6A0B1df04EA8550c219318C7f2FF3D34C and universalCount is 1",
+    "timestamp": "2024-11-21T21:40:26.245Z",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "message": "CONTROLLER_RESPONSE",
+    "timestamp": "2024-11-21T21:40:26.256Z",
+    "meta": {
+        "success": true,
+        "statusCode": 201,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/api/v1/buyPlanetCosmos"
+        },
+        "message": "User registered successfully"
+    }
+}
+{
+    "level": "INFO",
+    "message": "WebSocket connection established",
+    "timestamp": "2024-11-21T21:43:43.784Z",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "message": "event url is ",
+    "timestamp": "2024-11-21T21:44:46.852Z",
+    "meta": {
+        "url": "wss://go.getblock.io/603609eb504a46f5a659fa82ddfb021e"
+    }
+}
+{
+    "level": "INFO",
+    "message": "cosmos contract is ",
+    "timestamp": "2024-11-21T21:44:46.854Z",
+    "meta": {
+        "url": "0x224B64FD5d1ddAEC0EE29378b8c3ad58D24894e1"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-21T21:44:46.878Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "event url is ",
+    "timestamp": "2024-11-21T21:44:49.858Z",
+    "meta": {
+        "url": "wss://go.getblock.io/603609eb504a46f5a659fa82ddfb021e"
+    }
+}
+{
+    "level": "INFO",
+    "message": "cosmos contract is ",
+    "timestamp": "2024-11-21T21:44:49.860Z",
+    "meta": {
+        "url": "0x224B64FD5d1ddAEC0EE29378b8c3ad58D24894e1"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-21T21:44:49.884Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "event url is ",
+    "timestamp": "2024-11-21T21:44:53.850Z",
+    "meta": {
+        "url": "wss://go.getblock.io/603609eb504a46f5a659fa82ddfb021e"
+    }
+}
+{
+    "level": "INFO",
+    "message": "cosmos contract is ",
+    "timestamp": "2024-11-21T21:44:53.852Z",
+    "meta": {
+        "url": "0x224B64FD5d1ddAEC0EE29378b8c3ad58D24894e1"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-21T21:44:53.876Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "event url is ",
+    "timestamp": "2024-11-21T21:44:56.234Z",
+    "meta": {
+        "url": "wss://go.getblock.io/603609eb504a46f5a659fa82ddfb021e"
+    }
+}
+{
+    "level": "INFO",
+    "message": "cosmos contract is ",
+    "timestamp": "2024-11-21T21:44:56.235Z",
+    "meta": {
+        "url": "0x224B64FD5d1ddAEC0EE29378b8c3ad58D24894e1"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-21T21:44:56.259Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "event url is ",
+    "timestamp": "2024-11-21T21:45:06.047Z",
+    "meta": {
+        "url": "wss://go.getblock.io/603609eb504a46f5a659fa82ddfb021e"
+    }
+}
+{
+    "level": "INFO",
+    "message": "cosmos contract is ",
+    "timestamp": "2024-11-21T21:45:06.049Z",
+    "meta": {
+        "url": "0x224B64FD5d1ddAEC0EE29378b8c3ad58D24894e1"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-21T21:45:06.073Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "event url is ",
+    "timestamp": "2024-11-21T21:45:07.437Z",
+    "meta": {
+        "url": "wss://go.getblock.io/603609eb504a46f5a659fa82ddfb021e"
+    }
+}
+{
+    "level": "INFO",
+    "message": "cosmos contract is ",
+    "timestamp": "2024-11-21T21:45:07.439Z",
+    "meta": {
+        "url": "0x224B64FD5d1ddAEC0EE29378b8c3ad58D24894e1"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-21T21:45:07.463Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "event url is ",
+    "timestamp": "2024-11-21T21:45:09.038Z",
+    "meta": {
+        "url": "wss://go.getblock.io/603609eb504a46f5a659fa82ddfb021e"
+    }
+}
+{
+    "level": "INFO",
+    "message": "cosmos contract is ",
+    "timestamp": "2024-11-21T21:45:09.039Z",
+    "meta": {
+        "url": "0x224B64FD5d1ddAEC0EE29378b8c3ad58D24894e1"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-21T21:45:09.064Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "event url is ",
+    "timestamp": "2024-11-21T21:45:21.551Z",
+    "meta": {
+        "url": "wss://go.getblock.io/603609eb504a46f5a659fa82ddfb021e"
+    }
+}
+{
+    "level": "INFO",
+    "message": "cosmos contract is ",
+    "timestamp": "2024-11-21T21:45:21.554Z",
+    "meta": {
+        "url": "0x224B64FD5d1ddAEC0EE29378b8c3ad58D24894e1"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-21T21:45:21.578Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "WebSocket connection established",
+    "timestamp": "2024-11-21T21:45:22.927Z",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "message": "EVENT LISTENER",
+    "timestamp": "2024-11-21T21:45:23.018Z",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-21T21:45:23.371Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Cosmos owner created",
+    "timestamp": "2024-11-21T21:45:23.373Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "event url is ",
+    "timestamp": "2024-11-21T21:46:11.020Z",
+    "meta": {
+        "url": "wss://go.getblock.io/603609eb504a46f5a659fa82ddfb021e"
+    }
+}
+{
+    "level": "INFO",
+    "message": "cosmos contract is ",
+    "timestamp": "2024-11-21T21:46:11.021Z",
+    "meta": {
+        "url": "0x224B64FD5d1ddAEC0EE29378b8c3ad58D24894e1"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-21T21:46:11.046Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "event url is ",
+    "timestamp": "2024-11-21T21:46:12.699Z",
+    "meta": {
+        "url": "wss://go.getblock.io/603609eb504a46f5a659fa82ddfb021e"
+    }
+}
+{
+    "level": "INFO",
+    "message": "cosmos contract is ",
+    "timestamp": "2024-11-21T21:46:12.701Z",
+    "meta": {
+        "url": "0x224B64FD5d1ddAEC0EE29378b8c3ad58D24894e1"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-21T21:46:12.725Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "event url is ",
+    "timestamp": "2024-11-21T21:46:18.591Z",
+    "meta": {
+        "url": "wss://go.getblock.io/603609eb504a46f5a659fa82ddfb021e"
+    }
+}
+{
+    "level": "INFO",
+    "message": "cosmos contract is ",
+    "timestamp": "2024-11-21T21:46:18.593Z",
+    "meta": {
+        "url": "0x224B64FD5d1ddAEC0EE29378b8c3ad58D24894e1"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-21T21:46:18.617Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "WebSocket connection established",
+    "timestamp": "2024-11-21T21:46:20.153Z",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-21T21:46:20.519Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Cosmos owner created",
+    "timestamp": "2024-11-21T21:46:20.521Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "New registration detected in transaction: 0xce1a3a106b2c1e393497c627eb816114c59c814aaa440b4f832937c7dbea6b63",
+    "timestamp": "2024-11-21T21:47:37.864Z",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "message": "even signature",
+    "timestamp": "2024-11-21T21:47:38.478Z",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "message": "even signature",
+    "timestamp": "2024-11-21T21:47:38.478Z",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "message": "even signature",
+    "timestamp": "2024-11-21T21:47:38.478Z",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "message": "even signature",
+    "timestamp": "2024-11-21T21:47:38.478Z",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "message": "even signature",
+    "timestamp": "2024-11-21T21:47:38.479Z",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "message": "even signature",
+    "timestamp": "2024-11-21T21:47:38.479Z",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "message": "even signature",
+    "timestamp": "2024-11-21T21:47:38.479Z",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "message": "even signature",
+    "timestamp": "2024-11-21T21:47:38.479Z",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "message": "even signature",
+    "timestamp": "2024-11-21T21:47:38.479Z",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "message": "even signature",
+    "timestamp": "2024-11-21T21:47:38.479Z",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "message": "even signature",
+    "timestamp": "2024-11-21T21:47:38.479Z",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "message": "even signature",
+    "timestamp": "2024-11-21T21:47:38.479Z",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "message": "even signature",
+    "timestamp": "2024-11-21T21:47:38.480Z",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "message": "even signature",
+    "timestamp": "2024-11-21T21:47:38.480Z",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "message": "even signature",
+    "timestamp": "2024-11-21T21:47:38.480Z",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "message": "even signature",
+    "timestamp": "2024-11-21T21:47:38.480Z",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "message": "even signature",
+    "timestamp": "2024-11-21T21:47:38.481Z",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "message": "even signature",
+    "timestamp": "2024-11-21T21:47:38.481Z",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "message": "even signature",
+    "timestamp": "2024-11-21T21:47:38.481Z",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "message": "even signature",
+    "timestamp": "2024-11-21T21:47:38.481Z",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "message": "even signature",
+    "timestamp": "2024-11-21T21:47:38.481Z",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "message": "even signature",
+    "timestamp": "2024-11-21T21:47:38.481Z",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "message": "even signature",
+    "timestamp": "2024-11-21T21:47:38.481Z",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "message": "even signature",
+    "timestamp": "2024-11-21T21:47:38.481Z",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "message": "even signature",
+    "timestamp": "2024-11-21T21:47:38.481Z",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "message": "even signature",
+    "timestamp": "2024-11-21T21:47:38.481Z",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "message": "even signature",
+    "timestamp": "2024-11-21T21:47:38.481Z",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "message": "even signature",
+    "timestamp": "2024-11-21T21:47:38.481Z",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "message": "even signature",
+    "timestamp": "2024-11-21T21:47:38.481Z",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "message": "even signature",
+    "timestamp": "2024-11-21T21:47:38.482Z",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "message": "even signature",
+    "timestamp": "2024-11-21T21:47:38.482Z",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "message": "even signature",
+    "timestamp": "2024-11-21T21:47:38.482Z",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "message": "even signature",
+    "timestamp": "2024-11-21T21:47:38.482Z",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "message": "even signature",
+    "timestamp": "2024-11-21T21:47:38.482Z",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "message": "even signature",
+    "timestamp": "2024-11-21T21:47:38.482Z",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "message": "even signature",
+    "timestamp": "2024-11-21T21:47:38.483Z",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "message": "even signature",
+    "timestamp": "2024-11-21T21:47:38.483Z",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "message": "even signature",
+    "timestamp": "2024-11-21T21:47:38.483Z",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "message": "even signature",
+    "timestamp": "2024-11-21T21:47:38.483Z",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "message": "even signature",
+    "timestamp": "2024-11-21T21:47:38.483Z",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "message": "even signature",
+    "timestamp": "2024-11-21T21:47:38.483Z",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "message": "even signature",
+    "timestamp": "2024-11-21T21:47:38.483Z",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "message": "even signature",
+    "timestamp": "2024-11-21T21:47:38.483Z",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "message": "even signature",
+    "timestamp": "2024-11-21T21:47:38.483Z",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "message": "even signature",
+    "timestamp": "2024-11-21T21:47:38.483Z",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "message": "even signature",
+    "timestamp": "2024-11-21T21:47:38.483Z",
+    "meta": {}
+}
+{
+    "level": "ERROR",
+    "message": "Error decoding log: Do not know how to serialize a BigInt",
+    "timestamp": "2024-11-21T21:47:38.489Z",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "message": "event url is ",
+    "timestamp": "2024-11-21T21:50:42.875Z",
+    "meta": {
+        "url": "wss://go.getblock.io/603609eb504a46f5a659fa82ddfb021e"
+    }
+}
+{
+    "level": "INFO",
+    "message": "cosmos contract is ",
+    "timestamp": "2024-11-21T21:50:42.900Z",
+    "meta": {
+        "url": "0x224B64FD5d1ddAEC0EE29378b8c3ad58D24894e1"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-21T21:50:42.928Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "WebSocket connection established",
+    "timestamp": "2024-11-21T21:50:44.323Z",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-21T21:50:44.819Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Cosmos owner created",
+    "timestamp": "2024-11-21T21:50:44.822Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "event url is ",
+    "timestamp": "2024-11-21T21:50:49.392Z",
+    "meta": {
+        "url": "wss://go.getblock.io/603609eb504a46f5a659fa82ddfb021e"
+    }
+}
+{
+    "level": "INFO",
+    "message": "cosmos contract is ",
+    "timestamp": "2024-11-21T21:50:49.393Z",
+    "meta": {
+        "url": "0x224B64FD5d1ddAEC0EE29378b8c3ad58D24894e1"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-21T21:50:49.418Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "WebSocket connection established",
+    "timestamp": "2024-11-21T21:50:51.701Z",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-21T21:50:52.767Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Cosmos owner created",
+    "timestamp": "2024-11-21T21:50:52.773Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "event url is ",
+    "timestamp": "2024-11-21T21:55:18.707Z",
+    "meta": {
+        "url": "wss://go.getblock.io/603609eb504a46f5a659fa82ddfb021e"
+    }
+}
+{
+    "level": "INFO",
+    "message": "cosmos contract is ",
+    "timestamp": "2024-11-21T21:55:18.709Z",
+    "meta": {
+        "url": "0x224B64FD5d1ddAEC0EE29378b8c3ad58D24894e1"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-21T21:55:18.733Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "event url is ",
+    "timestamp": "2024-11-21T21:55:34.716Z",
+    "meta": {
+        "url": "wss://go.getblock.io/603609eb504a46f5a659fa82ddfb021e"
+    }
+}
+{
+    "level": "INFO",
+    "message": "cosmos contract is ",
+    "timestamp": "2024-11-21T21:55:34.718Z",
+    "meta": {
+        "url": "0x224B64FD5d1ddAEC0EE29378b8c3ad58D24894e1"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-21T21:55:34.743Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "WebSocket connection established",
+    "timestamp": "2024-11-21T21:55:36.303Z",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-21T21:55:36.674Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Cosmos owner created",
+    "timestamp": "2024-11-21T21:55:36.676Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "event url is ",
+    "timestamp": "2024-11-21T21:55:39.801Z",
+    "meta": {
+        "url": "wss://go.getblock.io/603609eb504a46f5a659fa82ddfb021e"
+    }
+}
+{
+    "level": "INFO",
+    "message": "cosmos contract is ",
+    "timestamp": "2024-11-21T21:55:39.803Z",
+    "meta": {
+        "url": "0x224B64FD5d1ddAEC0EE29378b8c3ad58D24894e1"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-21T21:55:39.827Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "event url is ",
+    "timestamp": "2024-11-21T21:55:44.699Z",
+    "meta": {
+        "url": "wss://go.getblock.io/603609eb504a46f5a659fa82ddfb021e"
+    }
+}
+{
+    "level": "INFO",
+    "message": "cosmos contract is ",
+    "timestamp": "2024-11-21T21:55:44.700Z",
+    "meta": {
+        "url": "0x224B64FD5d1ddAEC0EE29378b8c3ad58D24894e1"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-21T21:55:44.724Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "event url is ",
+    "timestamp": "2024-11-21T21:55:58.082Z",
+    "meta": {
+        "url": "wss://go.getblock.io/603609eb504a46f5a659fa82ddfb021e"
+    }
+}
+{
+    "level": "INFO",
+    "message": "cosmos contract is ",
+    "timestamp": "2024-11-21T21:55:58.084Z",
+    "meta": {
+        "url": "0x224B64FD5d1ddAEC0EE29378b8c3ad58D24894e1"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-21T21:55:58.108Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "WebSocket connection established",
+    "timestamp": "2024-11-21T21:55:59.390Z",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-21T21:55:59.783Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Cosmos owner created",
+    "timestamp": "2024-11-21T21:55:59.785Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "planet data ",
+    "timestamp": "2024-11-21T21:56:06.403Z",
+    "meta": {
+        "planetName": "Moon",
+        "planetNum": 2
+    }
+}
+{
+    "level": "INFO",
+    "message": "event url is ",
+    "timestamp": "2024-11-21T21:56:31.222Z",
+    "meta": {
+        "url": "wss://go.getblock.io/603609eb504a46f5a659fa82ddfb021e"
+    }
+}
+{
+    "level": "INFO",
+    "message": "cosmos contract is ",
+    "timestamp": "2024-11-21T21:56:31.225Z",
+    "meta": {
+        "url": "0x224B64FD5d1ddAEC0EE29378b8c3ad58D24894e1"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-21T21:56:31.250Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "event url is ",
+    "timestamp": "2024-11-21T21:56:39.399Z",
+    "meta": {
+        "url": "wss://go.getblock.io/603609eb504a46f5a659fa82ddfb021e"
+    }
+}
+{
+    "level": "INFO",
+    "message": "cosmos contract is ",
+    "timestamp": "2024-11-21T21:56:39.401Z",
+    "meta": {
+        "url": "0x224B64FD5d1ddAEC0EE29378b8c3ad58D24894e1"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-21T21:56:39.425Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "event url is ",
+    "timestamp": "2024-11-21T21:56:40.897Z",
+    "meta": {
+        "url": "wss://go.getblock.io/603609eb504a46f5a659fa82ddfb021e"
+    }
+}
+{
+    "level": "INFO",
+    "message": "cosmos contract is ",
+    "timestamp": "2024-11-21T21:56:40.899Z",
+    "meta": {
+        "url": "0x224B64FD5d1ddAEC0EE29378b8c3ad58D24894e1"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-21T21:56:40.924Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "WebSocket connection established",
+    "timestamp": "2024-11-21T21:56:42.725Z",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-21T21:56:43.064Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Cosmos owner created",
+    "timestamp": "2024-11-21T21:56:43.066Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "event url is ",
+    "timestamp": "2024-11-21T21:56:45.856Z",
+    "meta": {
+        "url": "wss://go.getblock.io/603609eb504a46f5a659fa82ddfb021e"
+    }
+}
+{
+    "level": "INFO",
+    "message": "cosmos contract is ",
+    "timestamp": "2024-11-21T21:56:45.858Z",
+    "meta": {
+        "url": "0x224B64FD5d1ddAEC0EE29378b8c3ad58D24894e1"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-21T21:56:45.882Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "WebSocket connection established",
+    "timestamp": "2024-11-21T21:56:47.347Z",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "message": "event url is ",
+    "timestamp": "2024-11-21T21:56:54.515Z",
+    "meta": {
+        "url": "wss://go.getblock.io/603609eb504a46f5a659fa82ddfb021e"
+    }
+}
+{
+    "level": "INFO",
+    "message": "cosmos contract is ",
+    "timestamp": "2024-11-21T21:56:54.517Z",
+    "meta": {
+        "url": "0x224B64FD5d1ddAEC0EE29378b8c3ad58D24894e1"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-21T21:56:54.541Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "WebSocket connection established",
+    "timestamp": "2024-11-21T21:56:56.387Z",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-21T21:56:56.923Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Cosmos owner created",
+    "timestamp": "2024-11-21T21:56:56.926Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "planet data ",
+    "timestamp": "2024-11-21T21:56:58.352Z",
+    "meta": {
+        "planetName": "Moon",
+        "planetNum": 2
+    }
+}
+{
+    "level": "INFO",
+    "message": "event url is ",
+    "timestamp": "2024-11-21T21:58:50.118Z",
+    "meta": {
+        "url": "wss://go.getblock.io/603609eb504a46f5a659fa82ddfb021e"
+    }
+}
+{
+    "level": "INFO",
+    "message": "cosmos contract is ",
+    "timestamp": "2024-11-21T21:58:50.120Z",
+    "meta": {
+        "url": "0x224B64FD5d1ddAEC0EE29378b8c3ad58D24894e1"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-21T21:58:50.145Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "WebSocket connection established",
+    "timestamp": "2024-11-21T21:58:52.307Z",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-21T21:58:52.650Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Cosmos owner created",
+    "timestamp": "2024-11-21T21:58:52.654Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "event url is ",
+    "timestamp": "2024-11-21T21:59:02.234Z",
+    "meta": {
+        "url": "wss://go.getblock.io/603609eb504a46f5a659fa82ddfb021e"
+    }
+}
+{
+    "level": "INFO",
+    "message": "cosmos contract is ",
+    "timestamp": "2024-11-21T21:59:02.235Z",
+    "meta": {
+        "url": "0x224B64FD5d1ddAEC0EE29378b8c3ad58D24894e1"
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2024-11-21T21:59:02.260Z",
+    "meta": {
+        "PORT": "4000",
+        "SERVER_URL": "http://localhost:4000"
+    }
+}
+{
+    "level": "INFO",
+    "message": "WebSocket connection established",
+    "timestamp": "2024-11-21T21:59:03.613Z",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "message": "Owner created",
+    "timestamp": "2024-11-21T21:59:03.993Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "Cosmos owner created",
+    "timestamp": "2024-11-21T21:59:03.995Z",
+    "meta": {
+        "user": "0xA30224CA6A6004369114F6A027e8A829EDcDa501"
+    }
+}
+{
+    "level": "INFO",
+    "message": "planet data ",
+    "timestamp": "2024-11-21T21:59:05.421Z",
+    "meta": {
+        "planetName": "Moon",
+        "planetNum": 2
+    }
+}
+{
+    "level": "INFO",
+    "message": "planet data ",
+    "timestamp": "2024-11-21T21:59:05.447Z",
+    "meta": {
+        "update": {
+            "universalCount": 1
+        }
+    }
+}
+{
+    "level": "INFO",
+    "message": "distributeLevelEarning",
+    "timestamp": "2024-11-21T21:59:05.454Z",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "message": "no return yet 1",
+    "timestamp": "2024-11-21T21:59:05.455Z",
+    "meta": {}
+}
+{
+    "level": "ERROR",
+    "message": "something went wrong in the distributeLevelEarning user ancestors legnth 0",
+    "timestamp": "2024-11-21T21:59:05.459Z",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "message": "user address: 0x2C7f4dB6A0B1df04EA8550c219318C7f2FF3D34C and universalCount is 2",
+    "timestamp": "2024-11-21T21:59:05.463Z",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "message": "current root in transition ",
+    "timestamp": "2024-11-21T21:59:05.465Z",
+    "meta": {}
+}
+{
+    "level": "ERROR",
+    "message": "No potential parent found for position",
+    "timestamp": "2024-11-21T21:59:05.470Z",
+    "meta": {}
+}
+{
+    "level": "ERROR",
+    "message": "something went wrong in distributeAutopoolEarning something went wrong in create newParent",
+    "timestamp": "2024-11-21T21:59:05.473Z",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "message": "CONTROLLER_RESPONSE",
+    "timestamp": "2024-11-21T21:59:05.473Z",
+    "meta": {
+        "success": true,
+        "statusCode": 201,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/api/v1/buyPlanetCosmos"
+        },
+        "message": "User registered successfully"
+    }
+}
+{
+    "level": "INFO",
+    "message": "New registration detected in transaction: 0xd13bd21af5a64a4b1a729dee29f1b9f60a6355ffc56b51615fc7285c2bf77157",
+    "timestamp": "2024-11-21T21:59:39.753Z",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "message": "Event signature:",
+    "timestamp": "2024-11-21T21:59:40.328Z",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "message": "plannetBuy Event Detected:",
+    "timestamp": "2024-11-21T21:59:40.328Z",
+    "meta": {
+        "user": "0x2C7f4dB6A0B1df04EA8550c219318C7f2FF3D34C",
+        "plannetId": 3
+    }
+}
+{
+    "level": "INFO",
+    "message": "planet data ",
+    "timestamp": "2024-11-21T21:59:40.329Z",
+    "meta": {
+        "planetName": "Mars",
+        "planetNum": 3
+    }
+}
+{
+    "level": "INFO",
+    "message": "planet data ",
+    "timestamp": "2024-11-21T21:59:40.338Z",
+    "meta": {
+        "update": {
+            "universalCount": 1
+        }
+    }
+}
+{
+    "level": "INFO",
+    "message": "distributeLevelEarning",
+    "timestamp": "2024-11-21T21:59:40.344Z",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "message": "no return yet 1",
+    "timestamp": "2024-11-21T21:59:40.344Z",
+    "meta": {}
+}
+{
+    "level": "ERROR",
+    "message": "something went wrong in the distributeLevelEarning user ancestors legnth 0",
+    "timestamp": "2024-11-21T21:59:40.344Z",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "message": "user address: 0x2C7f4dB6A0B1df04EA8550c219318C7f2FF3D34C and universalCount is 2",
+    "timestamp": "2024-11-21T21:59:40.346Z",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "message": "current root in transition ",
+    "timestamp": "2024-11-21T21:59:40.347Z",
+    "meta": {}
+}
+{
+    "level": "ERROR",
+    "message": "No potential parent found for position",
+    "timestamp": "2024-11-21T21:59:40.348Z",
+    "meta": {}
+}
+{
+    "level": "ERROR",
+    "message": "something went wrong in distributeAutopoolEarning something went wrong in create newParent",
+    "timestamp": "2024-11-21T21:59:40.349Z",
+    "meta": {}
+}

@@ -4,8 +4,8 @@ import httpResponse from '../util/http-response'
 import responseMessage from '../constant/response-message'
 import httpError from '../util/http-error'
 import quicker from '../util/quicker'
-import { RegisterUserRequestBody } from '../types/type'
-import { registerNewUser } from './managers/user-service'
+import { BuyPlanetCosmosRequestBody, RegisterUserRequestBody } from '../types/type'
+import { buyPlanetInCosmos, registerNewUser } from './managers/user-service'
 
 export default {
     health: (req: express.Request, res: express.Response, next: express.NextFunction) => {
@@ -20,13 +20,14 @@ export default {
             httpError(next, error, req, 500)
         }
     },
+
     registerUser: async (
         req: express.Request<Record<string, any>, object, RegisterUserRequestBody>,
         res: express.Response,
         next: express.NextFunction
     ): Promise<void>  => {
         try {
-            const { publicAddress, sponsorAddress } = req.body
+            const { publicAddress, sponsorAddress ,regId} = req.body
 
             // Early return if validation fails
             if (!publicAddress || !sponsorAddress) {
@@ -34,8 +35,26 @@ export default {
             }
 
             // Delegate logic to the service layer
-            const newUser = await registerNewUser(publicAddress, sponsorAddress)
+            const newUser = await registerNewUser(publicAddress, sponsorAddress,regId)
             httpResponse(req,res,201,'User registered successfully',newUser)
+
+        } catch (error) {
+            // Use structured error handling
+            httpError(next, error, req, 500)
+        }
+    },
+
+    buyCosmosPlanet:async(
+        req: express.Request<Record<string, any>, object, BuyPlanetCosmosRequestBody>,
+        res: express.Response,
+        next: express.NextFunction
+    ) =>{
+        try {
+            const { wallet_address, planetId} = req.body
+             
+            const buyPlanet =   await buyPlanetInCosmos(wallet_address,planetId)
+       
+            httpResponse(req,res,201,'User registered successfully',buyPlanet)
 
         } catch (error) {
             // Use structured error handling
