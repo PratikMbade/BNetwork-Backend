@@ -1,5 +1,5 @@
 import { Router } from 'express'
-import apiController from '../controller/api-controller'
+import apiController from '../controller/cosmos-api-controller'
 
 const router:Router = Router()
 

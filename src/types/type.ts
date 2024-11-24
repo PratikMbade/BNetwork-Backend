@@ -1,3 +1,6 @@
+import { Prisma } from '@prisma/client'
+
+
 export type HttpResponse = {
     success: boolean
     statusCode: number
@@ -88,4 +91,44 @@ export interface RegisterUserRequestBody {
 export interface BuyPlanetCosmosRequestBody {
     wallet_address: string
     planetId: number
+}
+
+export interface BuyPlanetUniverseRequestBody{
+    planetId:number
+    wallet_address:string
+    direct_sponser:string
+    upgrade_sponser:string
+    firstThreeby3Sponser:string
+    firstThreeby3SponserChainId:number
+    secondThreeby3Sponser:string
+    secondThreeby3SponserChainId:number
+    thirdThreeby3Sponser:string
+    thirdThreeby3SponserChainId:number
+
+}
+
+
+export type ThirdSponserType = Prisma.UniverseMatrixEarningTreeGetPayload<{
+    include:{
+        threeChild:true;
+        matrixChildren:true;
+        universeMatrixEarningHistory:true;
+    }
+}>
+
+interface ChildPosition {
+    position: number;
+    level: number;
+  };
+  
+ export interface FindPositionAndLevelResult {
+    firstChild: ChildPosition;
+    secondChild: ChildPosition;
+    thirdChild: ChildPosition;
+  };
+  
+
+ export interface FindSpaceUnierse3x3ReturnType{
+   position:number;
+   level:number;
 }

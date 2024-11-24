@@ -384,14 +384,15 @@ model UniverseMatrixEarningTree {
   wallet_address               String
   uplineAddress                String
   planetName                   String
-  currentChainId               Int                            @default(1)
+  currentChainId               Int                             @default(1)
   currentChainPosition         Int
   currentChainLevel            Int
   countChainId                 Int                            @default(1)
+  threeChild                   MatrixThreeChildren[]
   matrixChildren               MatrixChildren[]
   universeMatrixEarningHistory UniverseMatrixEarningHistory[]
 
-  @@unique([planetName, wallet_address]) // Add this line for composite uniqueness
+  @@unique([planetName, wallet_address,currentChainId]) // Add this line for composite uniqueness
 }
 
 model MatrixChildren {
@@ -401,6 +402,21 @@ model MatrixChildren {
   upline_address              String
   childNumber                 Int
   chainId                     Int
+  planetName                  String
+  universeMatrixEarningTree   UniverseMatrixEarningTree @relation(fields: [universeMatrixEarningTreeId], references: [id])
+
+  @@index([wallet_address])
+}
+
+model MatrixThreeChildren {
+  id                          String            @id @default(uuid())
+  wallet_address              String
+  universeMatrixEarningTreeId String
+  upline_address              String
+  childPostion                Int
+  childLevel                  Int
+  chainId                     Int
+  uplineChainId              Int
   planetName                  String
   universeMatrixEarningTree   UniverseMatrixEarningTree @relation(fields: [universeMatrixEarningTreeId], references: [id])
 
