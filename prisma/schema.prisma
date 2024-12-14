@@ -385,8 +385,6 @@ model UniverseMatrixEarningTree {
   uplineAddress                String
   planetName                   String
   currentChainId               Int                             @default(1)
-  currentChainPosition         Int
-  currentChainLevel            Int
   countChainId                 Int                            @default(1)
   threeChild                   MatrixThreeChildren[]
   matrixChildren               MatrixChildren[]
@@ -405,8 +403,8 @@ model MatrixChildren {
   planetName                  String
   universeMatrixEarningTree   UniverseMatrixEarningTree @relation(fields: [universeMatrixEarningTreeId], references: [id])
 
-  @@index([wallet_address])
 }
+
 
 model MatrixThreeChildren {
   id                          String            @id @default(uuid())

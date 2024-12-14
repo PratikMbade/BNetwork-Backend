@@ -1,9 +1,18 @@
+
 import config from './config/config'
 import app from './app'
 import logger from './util/logger'
-import { createOwnerInCosMosAutopool, createOwnerInUsersTable, seedBNCoinConfig } from './db/pre-run-method'
-import { listenOnContractBuyPlanet, listenOnContractRegistration } from './contract/cosmos-contract/cosmos-contract-events'
+import { createOwnerInCosMosAutopool, createOwnerInUsersTable, createUniverse, createUniverseMatrixOwner, seedBNCoinConfig } from './db/pre-run-method'
+import { listenOnContractRegistration } from './contract/cosmos-contract/cosmos-contract-events'
+import { universe_contract_event_listener } from './contract/universe-contract/universe-contract-event'
 
+
+// import { listenOnContractBuyPlanet, listenOnContractRegistration } from './contract/cosmos-contract/cosmos-contract-events'
+declare global {
+    interface BigInt {
+        toJSON(): number;
+    }
+}
 const server = app.listen(config.PORT)
 
 void (async () => {
@@ -15,11 +24,20 @@ void (async () => {
             }
         })
 
-         await seedBNCoinConfig()
+        await universe_contract_event_listener()
 
+       
+        BigInt.prototype.toJSON = function () { return Number(this) }
+        
+
+         await seedBNCoinConfig()
          await listenOnContractRegistration()
 
-         await listenOnContractBuyPlanet()
+        //  await listenOnContractBuyPlanet()
+
+         await createUniverse()
+
+         await createUniverseMatrixOwner()
 
 
         const owner = await createOwnerInUsersTable()

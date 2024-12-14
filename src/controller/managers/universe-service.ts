@@ -1,44 +1,61 @@
 import { User } from '@prisma/client'
 import { prisma } from '../../app'
-import { distributeDirectEarningInUniverse } from '../../helper/earning-distribute-universe/earning.distribute'
-import { upgradeEarningTreeUniverse } from '../../helper/earning-distribute-universe/upgrade-distribute'
-import { BuyPlanetUniverseRequestBody, getUniversePlanetDetailsById } from '../../types/type'
+// import { distributeDirectEarningInUniverse } from '../../helper/earning-distribute-universe/earning.distribute'
+// import { upgradeEarningTreeUniverse } from '../../helper/earning-distribute-universe/upgrade-distribute'
+import { BuyPlanetUniverseRequestBody, getUniversePlanetDetailsById } from '../../custom-types/type'
 import logger from '../../util/logger'
-
+import {  distribute3by2Earning, getUserIdsFromContract, getUserWalletDetailsFromContract } from '../../helper/earning-distribute-universe/martrix3by2'
 
 export const distrubuteUniverseEarning = async (
     user: User,
     direct_upline_address: string,
     upgrade_upline_address: string,
-    firstThreeby3Sponser: string,
-    firstThreeby3SponserChainId: number,
-    secondThreeby3Sponser: string,
-    secondThreeby3SponserChainId: number,
-    thirdThreeby3Sponser: string,
-    thirdThreeby3SponserChainId: number,
     planetName: string,
     planetNum: number,
-    planetPrice: number
+    planetPrice: number,
+    upline_address_event: string,
+    userChain: number,
+    chainId: number
 ) => {
     //direct earning
-    await distributeDirectEarningInUniverse(user, direct_upline_address, planetName, planetPrice)
-    await upgradeEarningTreeUniverse(user, planetName, planetNum, planetPrice, upgrade_upline_address)
- 
+    // await distributeDirectEarningInUniverse(user, direct_upline_address, planetName, planetPrice)
+    // await upgradeEarningTreeUniverse(user, planetName, planetNum, planetPrice, upgrade_upline_address)
+    logger.info('distrubuteUniverseEarning', { 
+        meta:{
+            user,
+            direct_upline_address,
+            upgrade_upline_address,
+            planetName,
+            planetNum,
+            planetPrice,
+            upline_address_event,
+            userChain,
+            chainId
+        }
+    }
+    );
+
+    const user_id_details = await getUserIdsFromContract(user.wallet_address, userChain, planetNum - 1)
+
+    const user_deatils = await getUserWalletDetailsFromContract(user_id_details,direct_upline_address,userChain, planetNum)
+
+    const upline_details = await getUserWalletDetailsFromContract(user_deatils.wallet_details.upline_id,direct_upline_address,userChain, planetNum)
+
+
+    const createUniverseMatrixUser = await prisma.universeMatrixEarningTree.create({
+        data: {
+            wallet_address: user.wallet_address,
+            uplineAddress: upline_details.wallet_details.user,
+            currentChainId: userChain,
+            planetName: planetName
+        }
+    })
+
+    await distribute3by2Earning(createUniverseMatrixUser, planetNum, direct_upline_address, upline_address_event, userChain)
 }
 
 export const buyPlanetUniverse = async (requestBody: BuyPlanetUniverseRequestBody) => {
-    const {
-        planetId,
-        wallet_address,
-        direct_sponser,
-        upgrade_sponser,
-        firstThreeby3Sponser,
-        firstThreeby3SponserChainId,
-        secondThreeby3Sponser,
-        secondThreeby3SponserChainId,
-        thirdThreeby3Sponser,
-        thirdThreeby3SponserChainId
-    } = requestBody
+    const { planetId, wallet_address, upgrade_sponser, upline_address,userChain, chainId } = requestBody
 
     const { planetName, planetPrice } = getUniversePlanetDetailsById(planetId)
 
@@ -114,20 +131,7 @@ export const buyPlanetUniverse = async (requestBody: BuyPlanetUniverseRequestBod
         })
     })
 
-    await distrubuteUniverseEarning(
-        user,
-        direct_sponser,
-        upgrade_sponser,
-        firstThreeby3Sponser,
-        firstThreeby3SponserChainId,
-        secondThreeby3Sponser,
-        secondThreeby3SponserChainId,
-        thirdThreeby3Sponser,
-        thirdThreeby3SponserChainId,
-        planetName,
-        planetId,
-        planetPrice
-    )
+    await distrubuteUniverseEarning(user,user.sponser_address!, upgrade_sponser, planetName, planetId, planetPrice, upline_address,userChain, chainId)
 
     return data
 }

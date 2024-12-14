@@ -1,7 +1,7 @@
 import { prisma } from '../../app'
 import { distributeAutopoolEarning } from '../../helper/earning-distribute-cosmos/autopool'
 import { distributeDirectEarning, distributeLevelEarning, distributeUpgradeEaning } from '../../helper/earning-distribute-cosmos/earning'
-import { getCosmosPlanetDetailsById } from '../../types/type'
+import { getCosmosPlanetDetailsById } from '../../custom-types/type'
 import logger from '../../util/logger'
 
 const handleEarningsDistribution = async (

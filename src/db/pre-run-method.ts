@@ -2,6 +2,7 @@
 import { prisma } from '../app'
 import logger from '../util/logger'
 
+
 export async function seedBNCoinConfig() {
     // Seed BNMaxRewardsCoins
     await prisma.bNCoinConfig.upsert({
@@ -132,9 +133,22 @@ export async function createOwnerInCosMosAutopool() {
 
 export async function createUniverse() {
     try {
+
+        const wallet_address = '0xA30224CA6A6004369114F6A027e8A829EDcDa501'
+        
+        const user = await prisma.universeUpgradeEarningTree.findFirst({
+            where:{
+                wallet_address:wallet_address
+            }
+        })
+
+        if(user){
+            return;
+        }
+
         const dummyUser = await prisma.universeUpgradeEarningTree.create({
             data: {
-                wallet_address: '0xF346C0856DF3e220E57293a0CF125C1322cfD778',
+                wallet_address: wallet_address,
                 currentPlanet: 1, // You can adjust this or leave it null
                 level: 0, // Example value, adjust as needed
                 position: 1, // Example value, adjust as needed
@@ -142,7 +156,7 @@ export async function createUniverse() {
             }
         })
 
-        logger.log('Dummy user created in universe:', dummyUser)
+        logger.log('owner user created in universeUpgradeEarningTree:', dummyUser)
     } catch (error) {
         logger.error('Error creating dummy user:', error)
     }
@@ -150,19 +164,29 @@ export async function createUniverse() {
 
 export async function createUniverseMatrixOwner() {
     try {
+
+        const wallet_address = '0xA30224CA6A6004369114F6A027e8A829EDcDa501'
+        
+        const user = await prisma.universeMatrixEarningTree.findFirst({
+            where:{
+                wallet_address:wallet_address
+            }
+        })
+
+        if(user){
+            return;
+        }
         const dummyUser = await prisma.universeMatrixEarningTree.create({
             data: {
-                wallet_address: '0xF346C0856DF3e220E57293a0CF125C1322cfD778',
-                planetName: 'Pluto',
+                wallet_address: wallet_address,
+                planetName: 'Earth',
                 currentChainId: 1,
-                currentChainPosition: 1,
-                currentChainLevel: 0,
                 uplineAddress: '',
                 countChainId: 1
             }
         })
 
-        logger.log('UniverseMatrix', dummyUser)
+        logger.log('onwer user created in universeMatrixEarningTree', dummyUser)
     } catch (error) {
         logger.error('something went wrong in the createUniverseMatrixOwner',error)
     }

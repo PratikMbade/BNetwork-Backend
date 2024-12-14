@@ -98,12 +98,10 @@ export interface BuyPlanetUniverseRequestBody{
     wallet_address:string
     direct_sponser:string
     upgrade_sponser:string
-    firstThreeby3Sponser:string
-    firstThreeby3SponserChainId:number
-    secondThreeby3Sponser:string
-    secondThreeby3SponserChainId:number
-    thirdThreeby3Sponser:string
-    thirdThreeby3SponserChainId:number
+    upline_address:string
+    userChain:number
+    chainId:number
+    
 
 }
 
@@ -131,4 +129,9 @@ interface ChildPosition {
  export interface FindSpaceUnierse3x3ReturnType{
    position:number;
    level:number;
+}
+
+export interface MatrixUplinesTyps{
+    address:string;
+    chainId:number;
 }

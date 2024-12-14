@@ -71,10 +71,15 @@ export const fetchEventDataFromTransaction = async (transactionHash: string) => 
 
                 const { user, referral, id } = decodedLog
 
-                logger.log('NEW TRANSACTION DATA', '****', {
-                    regId: id,
+                const _id = String(decodedLog.id);
+
+
+                logger.info('NEW TRANSACTION DATA', {
+                  meta:{
+                    regId:  Number(_id),
                     user: user,
                     referrer: referral
+                  }
                 })
 
                 regId = id as number
@@ -180,9 +185,9 @@ export const listenOnContractRegistration = async () => {
         const subscription = web3.eth.subscribe('logs', {
             address: contractAddress,
             topics: [eventSignature] // Filtering for the specific event
-        })
+        });
 
-        ;(await subscription).on('data', async (log: any) => {
+        (await subscription).on('data', async (log: any) => {
             const { transactionHash } = log
 
             logger.log('NEW TRANSACTION DETECTED', `New registration detected in transaction: ${transactionHash}`)
